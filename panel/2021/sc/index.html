@@ -1,11 +1,34 @@
+<html>
 <title>
-RESDIS Panel 2021
+Panel on Resource Disaggregation in HPC @ SC21
 </title>
-
 <body>
 
-<h1>Panel on Resource Disaggregation in High Performance Computing </h1> 
-<p>to be held together with SC'21</p>
+<style>
+body, html {width: 100%; height: 100%; margin: 0; padding: 0}
+</style>
 
-<h2>Currently under construction, stay tuned!</h2>
+<iframe src="https://bgerofi.wixsite.com/resdis21panel" id="ifm" style="width: 100%; height: 100%; margin: 0; padding: 0"></iframe>
+
+
+<script>
+var iframe = document.getElementById('ifm');
+
+function resizeIframe() {
+    var height = document.documentElement.clientHeight;
+    document.getElementById('ifm').style.height = height + 'px';
+}
+
+// .onload doesn't work with IE8 and older.
+if (iframe.attachEvent) {
+    iframe.attachEvent("onload", resizeIframe);
+} else {
+    iframe.onload=resizeIframe;
+}
+
+window.onresize = resizeIframe;
+</script>
+
+
 </body>
+</html>
