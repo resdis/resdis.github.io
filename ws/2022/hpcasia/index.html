@@ -217,6 +217,19 @@ Disaggregation is an emerging compute paradigm that splits existing monolithic s
               <div class="col-md-10">
                 <h4>Compute Express Link (CXL*): Changing the Industry Landscape</h4>
                 <p>Debendra Das Sharma (Intel)</p>
+                <div style="font-size:x-small">
+                    Abstract: CXL is a dynamic multi-protocol interconnect technology designed to support accelerators and memory
+                    devices. CXL provides a rich set of protocols that include I/O semantics similar to PCIe (i.e., CXL.io),
+                    caching protocol semantics (i.e., CXL.cache), and memory access semantics (i.e., CXL.mem) over
+                    PCIe PHY. CXL 2.0 specification enabled additional usage models beyond CXL 1.1, while being fully
+                    backwards compatible with CXL 1.1 (and CXL 1.0). CXL 2.0 enables dynamic resource allocation
+                    including memory and accelerator dis-aggregation across multiple domains. It enables switching,
+                    managed hot-plug, security enhancements, persistence memory support, memory error reporting, and
+                    telemetry.
+                    The availability of commercial IP blocks, Verification IPs, and industry standard internal interfaces
+                    enables CXL to be widely deployed across the industry. These along with a well-defined compliance
+                    program will ensure smooth interoperability across CXL devices in the industry.
+                </div>
               </div>
             </div>
 
@@ -225,6 +238,9 @@ Disaggregation is an emerging compute paradigm that splits existing monolithic s
               <div class="col-md-10">
                 <h4>CXL Memory and SMDK as a First Step toward Memory Disaggregation</h4>
                 <p>Cheolmin Park (Samsung)</p>
+                <div style="font-size:x-small">
+                    Abstract: AI services and heterogeneous computing have been introduced into memory systems, which has resulted in traditional memory architectures increasingly struggling to provide enough data to fully utilize CPUs and accelerators. As the global technology leader in the memory industry, Samsung Electronics is preparing memory disaggregation technology. Samsung’s CXL memory expander and SMDK (Scalable Memory Development Kit) is the first step toward memory disaggregation. CXL is a new interface which disaggregates memory from CPUs and allows for flexibility and availability of different processors and media characteristics. SMDK is a software development kit optimized for heterogeneous memory systems and provides a software solution for disaggregated memory architectures. In this talk, an overview of Samsung’s SMDK and CXL memory expander will be presented.
+                </div>
               </div>
             </div>
 
@@ -233,6 +249,9 @@ Disaggregation is an emerging compute paradigm that splits existing monolithic s
               <div class="col-md-10">
                 <h4>Rethinking Disaggregated Memory in HPC: A Userspace Software Approach</h4>
                 <p>Ivy Peng (Lawrence Livermore National Laboratory) </p>
+                <div style="font-size:x-small">
+                    Abstract: Current HPC systems use server-centric architecture and static resource allocation. Compute nodes are homogeneously configured with compute and memory resources, and job resource is allocated based on peak usage. The first part of this talk will examine memory utilization on several leadership HPC systems equipped with high-resolution monitoring infrastructure. Our analysis abstracts several representative temporal and spatial memory imbalance patterns in production jobs. The second part will introduce a userspace software to support on-demand memory expansion from network-attached memory. Despite the exact hardware and architecture of disaggregated memory being a moving target, our solution requires no modifications to the kernel nor privilege access and thus can be adopted in the HPC environment. Furthermore, with a focus on scalability and adaptability, application-specific optimizations can be achieved with no system-wide impact. Finally, early results of microbenchmarks and two memory-intensive applications will be presented.
+                </div>
               </div>
             </div>
 
