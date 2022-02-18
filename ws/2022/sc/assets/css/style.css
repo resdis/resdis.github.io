@@ -635,6 +635,110 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------------------------------------------------
+# Dates Section
+--------------------------------------------------------------*/
+#dates {
+  padding: 60px 0 60px 0;
+}
+#dates .nav-tabs {
+  text-align: center;
+  margin: auto;
+  display: block;
+  border-bottom: 0;
+  margin-bottom: 30px;
+}
+#dates .nav-tabs li {
+  display: inline-block;
+  margin-bottom: 0;
+}
+#dates .nav-tabs a {
+  border: none;
+  border-radius: 50px;
+  font-weight: 600;
+  background-color: #0e1b4d;
+  color: #fff;
+  padding: 10px 100px;
+}
+@media (max-width: 991px) {
+  #dates .nav-tabs a {
+    padding: 8px 60px;
+  }
+}
+@media (max-width: 767px) {
+  #dates .nav-tabs a {
+    padding: 8px 50px;
+  }
+}
+@media (max-width: 480px) {
+  #dates .nav-tabs a {
+    padding: 8px 30px;
+  }
+}
+#dates .nav-tabs a.active {
+  background-color: #f82249;
+  color: #fff;
+}
+#dates .sub-heading {
+  text-align: center;
+  font-size: 18px;
+  font-style: italic;
+  margin: 0 auto 30px auto;
+}
+@media (min-width: 991px) {
+  #dates .sub-heading {
+    width: 75%;
+  }
+}
+#dates .tab-pane {
+  transition: ease-in-out 0.2s;
+}
+#dates .dates-item {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  transition: background-color ease-in-out 0.3s;
+}
+#dates .dates-item:hover {
+  background-color: #fff;
+}
+#dates .dates-item time {
+  padding-bottom: 5px;
+  display: inline-block;
+}
+#dates .dates-item .speaker {
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+  border-radius: 50%;
+  float: left;
+  margin: 0 10px 10px 0;
+}
+#dates .dates-item .speaker img {
+  height: 100%;
+  transform: translateX(-50%);
+  margin-left: 50%;
+  transition: all ease-in-out 0.3s;
+}
+#dates .dates-item h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+#dates .dates-item h4 span {
+  font-style: italic;
+  color: #19328e;
+  font-weight: normal;
+  font-size: 16px;
+}
+#dates .dates-item p {
+  font-style: italic;
+  color: #152b79;
+  margin-bottom: 0;
+}
+
+
+
+
+/*--------------------------------------------------------------
 # Speakers Section
 --------------------------------------------------------------*/
 #speakers {
