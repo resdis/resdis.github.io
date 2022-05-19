@@ -49,7 +49,8 @@
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">Introduction</a></li>
+          <li><a class="nav-link scrollto" href="#about">Intro</a></li>
+          <li><a class="nav-link scrollto" href="#CFP">CFP</a></li>
           <li><a class="nav-link scrollto" href="#dates">Dates</a></li>
           <li><a class="nav-link scrollto" href="#speakers">Organization</a></li>
           <li><a class="nav-link scrollto" href="#schedule">Agenda</a></li>
@@ -85,9 +86,12 @@
     <div class="hero-container" data-aos="zoom-in" data-aos-delay="100">
       <h1 class="mb-4 pb-0">2nd International Workshop on <br/><span>RESource DISaggregation</span><br/>in High-Performance Computing<br/></h1>
       <h2 class="mb-4 pb-0">Held together with The International Conference for High Performance Computing, Networking, Storage, and Analysis (SC'22)</h2>
-      <p class="mb-4 pb-0">14th November 2022, Dallas, TX, USA</p>
+      <p class="mb-4 pb-0">Friday, 18th November 2022, Dallas, TX, USA</p>
       <!-- <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox play-btn mb-4"></a> -->
-      <a href="#about" class="about-btn scrollto">About The Event</a>
+      <!-- <a href="#about" class="about-btn scrollto">About The Event</a> -->
+	  <a href="https://sc22.supercomputing.org/">
+		<img src="assets/img/sc22-logo.png" width="300">
+	  </a>
     </div>
   </section><!-- End Hero Section -->
 
@@ -101,9 +105,35 @@
           </div>
           <div class="col-md-10" style="text-align: center">
           <h2>Introduction</h2>
-Disaggregation is an emerging compute paradigm that splits existing monolithic servers into a number of consolidated single-resource pools that communicate over a fast interconnect.  This model decouples individual hardware resources, including tightly coupled ones such as processors and memory, and enables the creation of logical compute platforms with flexible and dynamic hardware configurations.  The concept of disaggregation is driven by various recent trends in computation.  From an application perspective, the increasing importance of data analytics and machine learning workloads in HPC centers brings unprecedented need for memory capacity, which is in stark contrast with the growing imbalance in the peak compute-to-memory capacity ratio of traditional system board based server platforms where memory modules are co-located with processors. At the hardware front, the proliferation of heterogeneous, special purpose computing elements promotes the need for configurable compute platforms, while at the same time, the increasing maturity of optical interconnects elevates the prospects of distance independence in networking infrastructure. The workshop intends to explore various aspects of resource disgregation and their implications for high performance computing, both in dedicated HPC centers as well as in cloud environments.
-		<br/>
-		<br/>
+		  Disaggregation is an emerging compute paradigm that splits existing
+		  monolithic servers into a number of consolidated single-resource
+		  pools that communicate over a fast interconnect. This model decouples
+		  individual hardware resources, including tightly coupled ones such as
+		  processors and memory, and enables the composition of logical compute
+		  platforms with flexible and dynamic hardware configurations. <br/><br/>
+
+		  The concept of disaggregation is driven by various recent trends in
+		  computation. From an application perspective, the increasing
+		  importance of data analytics and machine learning workloads in HPC
+		  centers brings unprecedented need for memory capacity, which is in
+		  stark contrast with the growing imbalance in the peak
+		  compute-to-memory capacity ratio of traditional system board based
+		  server platforms where memory modules are co-located with processors.
+		  At the hardware front, the proliferation of heterogeneous, special
+		  purpose computing elements promotes the need for configurable compute
+		  platforms, while at the same time, the increasing maturity of optical
+		  interconnects elevates the prospects of better distance independence
+		  in networking infrastructure.<br/><br/>
+
+		  The workshop intends to explore various aspects of resource
+		  disgregation, composability and their implications for high
+		  performance computing, both in dedicated HPC centers as well as in
+		  cloud environments.  RESIDS aims to bring together researchers
+		  and industrial practitioners to foster discussion, collaboration,
+		  mutual exchange of knowledge and experience related to future
+		  disaggregated systems.
+		  <br/><br/>
+
           </div>
           <div class="col-md-1">
           </div>
@@ -111,8 +141,69 @@ Disaggregation is an emerging compute paradigm that splits existing monolithic s
       </div>
     </section><!-- End About Section -->
     
+	<!-- ======= CFP Section ======= -->
+    <section id="CFP" class="section-with-bg">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="section-header">
+		<br/>
+		<br/>
+          <h2>Call for Papers</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-md-1">
+          </div>
+          <div class="col-md-10" style="text-align: center">
+
+		  The RESDIS program committee solicits original, high-quality submissions
+		  of unpublished results related to the theme of resource disaggregation
+		  and composable systems.
+		  Topics of interest include, but not limited to: <br/><br/>
+
+			<div class="row">
+			  <div class="col-md-2">
+			  </div>
+			  <div class="col-md-8" data-aos="fade-up" data-aos-delay="100">
+			  - Disaggregated hardware in high-performance computing <br/>
+              - Operating systems and runtime support for disaggregated platforms <br/>
+              - Simulation of disaggregated platforms with existing infrastructure <br/>
+              - Runtime systems and programming abstractions for disaggregation and composability <br/>
+              - Implications of resource disaggregation for scientific computing and HPC applications <br/>
+              - Algorithm design for disaggregated and composable systems <br/>
+              - Disaggregated high throughput storage <br/>
+              - Resource management in disaggregated and composable platforms <br/>
+			  </div>
+			  <div class="col-md-2" data-aos="fade-up" data-aos-delay="100">
+			  </div>
+			</div>
+		  <br/>
+		  The workshop proceedings will be published electronically via the
+		  IEEE Computer Society Digital Library.  Submitted manuscripts should
+		  be formatted using the IEEE template conference mode.  The maximum
+		  paper length is 8 pages, not including references and other
+		  appendices.  Prospective authors should submit their papers in PDF
+		  format through Linklings’ submission site: <br/><br/>
+
+          <a class="buy-tickets scrollto" href="https://submissions.supercomputing.org/?page=Submit&id=SC22WorkshopRESDISSubmission&site=sc22" target="_blank">Submit Paper</a>
+		  <br/>
+		  <br/>
+		  <br/>
+
+
+          </div>
+          <div class="col-md-1">
+          </div>
+        </div>
+
+
+      </div>
+
+    </section>
+	<!-- End Dates Section -->
+
+    
 	<!-- ======= Dates Section ======= -->
-    <section id="dates" class="section-with-bg">
+    <section id="dates">
       <div class="container" data-aos="fade-up" data-aos-delay="100">
         <div class="section-header">
 		<br/>
@@ -195,7 +286,7 @@ Disaggregation is an emerging compute paradigm that splits existing monolithic s
 	<!-- End Dates Section -->
 
     <!-- ======= Speakers Section ======= -->
-    <section id="speakers">
+    <section id="speakers" class="section-with-bg">
       <div class="container" data-aos="fade-up" data-aos-delay="100">
         <div class="section-header">
           <h2>Organization</h2>
@@ -228,6 +319,7 @@ Disaggregation is an emerging compute paradigm that splits existing monolithic s
           <div class="col-md-1">
 		  </div>
         </div>
+
         <div class="row">
           <div class="col-md-2">
           </div>
@@ -244,6 +336,7 @@ Disaggregation is an emerging compute paradigm that splits existing monolithic s
           <div class="col-md-1">
 		  </div>
         </div>
+
         <div class="row">
           <div class="col-md-2">
           </div>
@@ -266,13 +359,111 @@ Disaggregation is an emerging compute paradigm that splits existing monolithic s
           </div>
           <div class="col-md-10" style="text-align: center">
           <h2><b>Program Committee</b></h2><br/>
-				
-				<div class="d-flex justify-content-center">
-                <h4>TBA</h4>
-				</div>
           </div>
           <div class="col-md-1">
           </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-2">
+          </div>
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+              <div class="pc-details">
+				Manya Ghobadi
+              </div>
+          </div>
+          <div class="col-md-5" data-aos="fade-up" data-aos-delay="100">
+              <div class="details">
+                <p>Massachusetts Institute of Technology, USA</p>
+              </div>
+          </div>
+          <div class="col-md-1">
+		  </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-2">
+          </div>
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+              <div class="pc-details">
+				Madeleine Glick
+              </div>
+          </div>
+          <div class="col-md-5" data-aos="fade-up" data-aos-delay="100">
+              <div class="details">
+                <p>Columbia University, USA</p>
+              </div>
+          </div>
+          <div class="col-md-1">
+		  </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-2">
+          </div>
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+              <div class="pc-details">
+				Ian Karlin
+              </div>
+          </div>
+          <div class="col-md-5" data-aos="fade-up" data-aos-delay="100">
+              <div class="details">
+                <p>NVIDIA, USA</p>
+              </div>
+          </div>
+          <div class="col-md-1">
+		  </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-2">
+          </div>
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+              <div class="pc-details">
+				John (Jack) Lange
+              </div>
+          </div>
+          <div class="col-md-5" data-aos="fade-up" data-aos-delay="100">
+              <div class="details">
+                <p>Oak Ridge National Laboratory, USA</p>
+              </div>
+          </div>
+          <div class="col-md-1">
+		  </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-2">
+          </div>
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+              <div class="pc-details">
+				Ivy Peng
+              </div>
+          </div>
+          <div class="col-md-5" data-aos="fade-up" data-aos-delay="100">
+              <div class="details">
+                <p>Lawrence Livermore National Laboratory, USA</p>
+              </div>
+          </div>
+          <div class="col-md-1">
+		  </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-2">
+          </div>
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+              <div class="pc-details">
+				Gaël Thomas
+              </div>
+          </div>
+          <div class="col-md-5" data-aos="fade-up" data-aos-delay="100">
+              <div class="details">
+                <p>Télécom SudParis, France</p>
+              </div>
+          </div>
+          <div class="col-md-1">
+		  </div>
         </div>
 
       </div>
@@ -280,7 +471,7 @@ Disaggregation is an emerging compute paradigm that splits existing monolithic s
     </section><!-- End Speakers Section -->
 
     <!-- ======= Schedule Section ======= -->
-    <section id="schedule" class="section-with-bg">
+    <section id="schedule">
       <div class="container" data-aos="fade-up">
         <div class="section-header">
           <h2>Agenda</h2>
@@ -440,7 +631,7 @@ Disaggregation is an emerging compute paradigm that splits existing monolithic s
     </section><!-- End Schedule Section -->
 
     <!-- ======= Venue Section ======= -->
-    <section id="venue">
+    <section id="venue" class="section-with-bg">
 
       <div class="container-fluid" data-aos="fade-up">
 
