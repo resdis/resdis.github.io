@@ -56,10 +56,10 @@ TOPICS OF INTEREST:
 
 TIMELINE AND SUBMISSION PROCEDURE:
 ----------------------------------
-Submission deadline:    August 5, 2022
-Author notification:    September 9, 2022
-Final papers deadline:  October 7, 2022
-Workshop date:          November 18, 2022
+Submission deadline (extended):    August 12, 2022 (AoE)
+Author notification:               September 9, 2022
+Final papers deadline:             October 7, 2022
+Workshop date:                     November 18, 2022
 
 The workshop proceedings will be published electronically via the IEEE Computer
 Society Digital Library.  Submitted manuscripts should be formatted using the
@@ -72,7 +72,7 @@ https://submissions.supercomputing.org/?page=Submit&id=SC22WorkshopRESDISSubmiss
 
 WORKSHOP CHAIRS:
 ----------------
-Balazs Gerofi           RIKEN, Japan
+Balazs Gerofi           Intel Corporation, USA
 John Shalf              Lawrence Berkeley National Laboratory, USA
 Keren Bergman           Columbia University, USA
 
