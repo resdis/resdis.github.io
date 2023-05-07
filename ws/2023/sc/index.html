@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>RESDIS'22</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: TheEvent - v4.7.0
+  * Template URL: https://bootstrapmade.com/theevent-conference-event-bootstrap-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex align-items-center ">
+    <div class="container-fluid container-xxl d-flex align-items-center">
+
+      <div id="logo" class="me-auto">
+        <!-- Uncomment below if you prefer to use a text logo -->
+        <h1><a href="index.html">RESDIS<span>'22</span></a></h1>
+        <!-- <a href="index.html" class="scrollto"><img src="assets/img/logo.png" alt="" title=""></a> -->
+      </div>
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">Intro</a></li>
+          <li><a class="nav-link scrollto" href="#CFP">CFP</a></li>
+          <li><a class="nav-link scrollto" href="#dates">Dates</a></li>
+          <li><a class="nav-link scrollto" href="#speakers">Organization</a></li>
+          <li><a class="nav-link scrollto" href="#schedule">Agenda</a></li>
+          <li><a class="nav-link scrollto" href="#venue">Venue</a></li>
+          <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+          <ul>
+            <li><a href="#">Drop Down 1</a></li>
+            <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+              <ul>
+                <li><a href="#">Deep Drop Down 1</a></li>
+                <li><a href="#">Deep Drop Down 2</a></li>
+                <li><a href="#">Deep Drop Down 3</a></li>
+                <li><a href="#">Deep Drop Down 4</a></li>
+                <li><a href="#">Deep Drop Down 5</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Drop Down 2</a></li>
+            <li><a href="#">Drop Down 3</a></li>
+            <li><a href="#">Drop Down 4</a></li>
+          </ul>
+        </li> -->
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+      <a class="buy-tickets scrollto" href="https://sc22.supercomputing.org/" target="_blank">Register</a>
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div class="hero-container" data-aos="zoom-in" data-aos-delay="20">
+      <h1 class="mb-4 pb-0">2nd International Workshop on <br/><span>RESource DISaggregation</span><br/>in High-Performance Computing<br/></h1>
+      <h2 class="mb-4 pb-0">Held together with The International Conference for High Performance Computing, Networking, Storage, and Analysis (SC'22)</h2>
+      <p class="mb-4 pb-0">Friday, 18th November 2022, Dallas, TX, USA</p>
+      <!-- <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox play-btn mb-4"></a> -->
+      <!-- <a href="#about" class="about-btn scrollto">About The Event</a> -->
+	  <a href="https://sc22.supercomputing.org/">
+		<img src="assets/img/sc22-logo.png" width="200">
+	  </a>
+    </div>
+  </section><!-- End Hero Section -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="section-with-bg">
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <div class="col-md-1">
+          </div>
+          <div class="col-md-10" style="text-align: center">
+          <h2>Introduction</h2>
+		  Disaggregation is an emerging compute paradigm that splits existing
+		  monolithic servers into a number of consolidated single-resource
+		  pools that communicate over a fast interconnect. This model decouples
+		  individual hardware resources, including tightly coupled ones such as
+		  processors and memory, and enables the composition of logical compute
+		  platforms with flexible and dynamic hardware configurations. <br/><br/>
+
+		  The concept of disaggregation is driven by various recent trends in
+		  computation. From an application perspective, the increasing
+		  importance of data analytics and machine learning workloads in HPC
+		  centers brings unprecedented need for memory capacity, which is in
+		  stark contrast with the growing imbalance in the peak
+		  compute-to-memory capacity ratio of traditional system board based
+		  server platforms where memory modules are co-located with processors.
+		  At the hardware front, the proliferation of heterogeneous, special
+		  purpose computing elements promotes the need for configurable compute
+		  platforms, while at the same time, the increasing maturity of optical
+		  interconnects elevates the prospects of better distance independence
+		  in networking infrastructure.<br/><br/>
+
+		  The workshop intends to explore various aspects of resource
+		  disgregation, composability and their implications for high
+		  performance computing, both in dedicated HPC centers as well as in
+		  cloud environments.  RESIDS aims to bring together researchers
+		  and industrial practitioners to foster discussion, collaboration,
+		  mutual exchange of knowledge and experience related to future
+		  disaggregated systems.
+		  <br/><br/>
+
+          </div>
+          <div class="col-md-1">
+          </div>
+        </div>
+      </div>
+    </section><!-- End About Section -->
+    
+	<!-- ======= CFP Section ======= -->
+    <section id="CFP" class="section-with-bg">
+      <div class="container" data-aos="fade-up" data-aos-delay="20">
+        <div class="section-header">
+		<br/>
+		<br/>
+          <h2>Call for Papers</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-md-1">
+          </div>
+          <div class="col-md-10" style="text-align: center" data-aos="fade-up" data-aos-delay="20">
+
+		  The RESDIS program committee solicits original, high-quality submissions
+		  of unpublished results related to the theme of resource disaggregation
+		  and composable systems.
+		  Topics of interest include, but not limited to: <br/><br/>
+
+			<div class="row">
+			  <div class="col-md-2">
+			  </div>
+			  <div class="col-md-8">
+			  - Disaggregated hardware in high-performance computing <br/>
+              - Operating systems and runtime support for disaggregated platforms <br/>
+              - Simulation of disaggregated platforms with existing infrastructure <br/>
+              - Runtime systems and programming abstractions for disaggregation and composability <br/>
+              - Networking for disaggregation, including silicon photonics and optical interconnects <br/>
+              - Implications of resource disaggregation for scientific computing and HPC applications <br/>
+              - Algorithm design for disaggregated and composable systems <br/>
+              - Disaggregated high throughput storage <br/>
+              - Resource management in disaggregated and composable platforms <br/>
+			  </div>
+			  <div class="col-md-2">
+			  </div>
+			</div>
+		  <br/>
+		  The workshop proceedings will be published electronically via the
+		  IEEE Computer Society Digital Library.  Submitted manuscripts should
+		  be formatted using the IEEE template conference mode.  The maximum
+		  paper length is 8 pages, not including references and other
+		  appendices.  Prospective authors should submit their papers in PDF
+		  format through Linklings’ submission site: <br/><br/>
+
+          <a class="buy-tickets scrollto" href="https://submissions.supercomputing.org/?page=Submit&id=SC22WorkshopRESDISSubmission&site=sc22" target="_blank">Submit Paper</a>
+		  <br/>
+		  <br/>
+		  <br/>
+
+
+          </div>
+          <div class="col-md-1">
+          </div>
+        </div>
+
+
+      </div>
+
+    </section>
+	<!-- End Dates Section -->
+
+    
+	<!-- ======= Dates Section ======= -->
+    <section id="dates">
+      <div class="container" data-aos="fade-up" data-aos-delay="20">
+        <div class="section-header">
+		<br/>
+          <h2>Important Dates</h2>
+        </div>
+
+			<div class="row">
+			  <div class="col-md-2">
+			  </div>
+			  <div class="col-md-4" data-aos="fade-up" data-aos-delay="20">
+				  <div class="details">
+					<h5>August <s>5th</s> 19th (Fri) AoE</h5>
+				  </div>
+			  </div>
+			  <div class="col-md-5" data-aos="fade-up" data-aos-delay="20">
+				  <div class="details">
+					<p>Submission deadline (extended)</p>
+				  </div>
+			  </div>
+			  <div class="col-md-1">
+			  </div>
+			</div>
+
+			<div class="row">
+			  <div class="col-md-2">
+			  </div>
+			  <div class="col-md-4" data-aos="fade-up" data-aos-delay="20">
+				  <div class="details">
+					<h5><time>September 9th (Fri)</time></h5>
+				  </div>
+			  </div>
+			  <div class="col-md-5" data-aos="fade-up" data-aos-delay="20">
+				  <div class="details">
+					<p>Acceptance notification</p>
+				  </div>
+			  </div>
+			  <div class="col-md-1">
+			  </div>
+			</div>
+
+			<div class="row">
+			  <div class="col-md-2">
+			  </div>
+			  <div class="col-md-4" data-aos="fade-up" data-aos-delay="20">
+				  <div class="details">
+					<h5><time>October 7th (Fri)</time></h5>
+				  </div>
+			  </div>
+			  <div class="col-md-5" data-aos="fade-up" data-aos-delay="20">
+				  <div class="details">
+					<p>Final paper deadline</p>
+				  </div>
+			  </div>
+			  <div class="col-md-1">
+			  </div>
+			</div>
+
+			<div class="row">
+			  <div class="col-md-2">
+			  </div>
+			  <div class="col-md-4" data-aos="fade-up" data-aos-delay="20">
+				  <div class="details">
+					<h5><time>November 18th (Fri)</time></h5>
+				  </div>
+			  </div>
+			  <div class="col-md-5" data-aos="fade-up" data-aos-delay="20">
+				  <div class="details">
+					<p>Workshop date</p>
+				  </div>
+			  </div>
+			  <div class="col-md-1">
+			  </div>
+			</div>
+
+
+
+      </div>
+
+    </section>
+	<!-- End Dates Section -->
+
+    <!-- ======= Speakers Section ======= -->
+    <section id="speakers" class="section-with-bg">
+      <div class="container" data-aos="fade-up" data-aos-delay="20">
+        <div class="section-header">
+          <h2>Organization</h2>
+        </div>
+        
+		<div class="row">
+          <div class="col-md-1">
+          </div>
+          <div class="col-md-10" style="text-align: center">
+          <h2><b>Workshop Chairs</b></h2>
+		<br/>
+          </div>
+          <div class="col-md-1">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-2">
+          </div>
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="10">
+              <div class="pc-details">
+                <a href="http://bgerofi.github.io/" target="_blank" style="color:#0e1b4d">Balazs Gerofi</a>
+              </div>
+          </div>
+          <div class="col-md-5" data-aos="fade-up" data-aos-delay="10">
+              <div class="details">
+                <p>Intel Corporation, USA & RIKEN, Japan</p>
+              </div>
+          </div>
+          <div class="col-md-1">
+		  </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-2">
+          </div>
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="10">
+              <div class="pc-details">
+                <a href="https://crd.lbl.gov/divisions/amcr/about-amcr/staff-2/computer-science-2/john-shalf-2/" target="_blank" style="color:#0e1b4d">John Shalf</a>
+              </div>
+          </div>
+          <div class="col-md-5" data-aos="fade-up" data-aos-delay="10">
+              <div class="details">
+                <p>Lawrence Berkeley National Laboratory, USA</p>
+              </div>
+          </div>
+          <div class="col-md-1">
+		  </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-2">
+          </div>
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="10">
+              <div class="pc-details">
+                <a href="https://www.ee.columbia.edu/keren-bergman" target="_blank" style="color:#0e1b4d">Keren Bergman</a>
+              </div>
+          </div>
+          <div class="col-md-5" data-aos="fade-up" data-aos-delay="10">
+              <div class="details">
+                <p>Columbia University, USA</p>
+              </div>
+          </div>
+          <div class="col-md-1">
+		  </div>
+        </div>
+
+		<div class="row">
+          <div class="col-md-1">
+          </div>
+          <div class="col-md-10" style="text-align: center">
+          <h2><b>Program Committee</b></h2><br/>
+          </div>
+          <div class="col-md-1">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-2">
+          </div>
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="10">
+              <div class="pc-details">
+				Manya Ghobadi
+              </div>
+          </div>
+          <div class="col-md-5" data-aos="fade-up" data-aos-delay="10">
+              <div class="details">
+                <p>Massachusetts Institute of Technology, USA</p>
+              </div>
+          </div>
+          <div class="col-md-1">
+		  </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-2">
+          </div>
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="10">
+              <div class="pc-details">
+				Madeleine Glick
+              </div>
+          </div>
+          <div class="col-md-5" data-aos="fade-up" data-aos-delay="10">
+              <div class="details">
+                <p>Columbia University, USA</p>
+              </div>
+          </div>
+          <div class="col-md-1">
+		  </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-2">
+          </div>
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="10">
+              <div class="pc-details">
+				Ian Karlin
+              </div>
+          </div>
+          <div class="col-md-5" data-aos="fade-up" data-aos-delay="10">
+              <div class="details">
+                <p>NVIDIA, USA</p>
+              </div>
+          </div>
+          <div class="col-md-1">
+		  </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-2">
+          </div>
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="10">
+              <div class="pc-details">
+				John (Jack) Lange
+              </div>
+          </div>
+          <div class="col-md-5" data-aos="fade-up" data-aos-delay="10">
+              <div class="details">
+                <p>Oak Ridge National Laboratory, USA</p>
+              </div>
+          </div>
+          <div class="col-md-1">
+		  </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-2">
+          </div>
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="10">
+              <div class="pc-details">
+				Ivy Peng
+              </div>
+          </div>
+          <div class="col-md-5" data-aos="fade-up" data-aos-delay="10">
+              <div class="details">
+                <p>Lawrence Livermore National Laboratory, USA</p>
+              </div>
+          </div>
+          <div class="col-md-1">
+		  </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-2">
+          </div>
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="10">
+              <div class="pc-details">
+				Yu Tanaka
+              </div>
+          </div>
+          <div class="col-md-5" data-aos="fade-up" data-aos-delay="10">
+              <div class="details">
+                <p>Fujitsu, Japan</p>
+              </div>
+          </div>
+          <div class="col-md-1">
+		  </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-2">
+          </div>
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="10">
+              <div class="pc-details">
+				Gaël Thomas
+              </div>
+          </div>
+          <div class="col-md-5" data-aos="fade-up" data-aos-delay="10">
+              <div class="details">
+                <p>Télécom SudParis, France</p>
+              </div>
+          </div>
+          <div class="col-md-1">
+		  </div>
+        </div>
+
+      </div>
+
+    </section><!-- End Speakers Section -->
+
+    <!-- ======= Schedule Section ======= -->
+    <section id="schedule">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>Agenda</h2>
+          <p>All times in Central Daylight Time (UTC-5)</p>
+        </div>
+
+<!--
+        <ul class="nav nav-tabs" role="tablist" data-aos="fade-up" data-aos-delay="20">
+          <li class="nav-item">
+            <a class="nav-link active" href="#day-1" role="tab" data-bs-toggle="tab">Day 1</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#day-2" role="tab" data-bs-toggle="tab">Day 2</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#day-3" role="tab" data-bs-toggle="tab">Day 3</a>
+          </li>
+        </ul>
+        <h3 class="sub-heading">Voluptatem nulla veniam soluta et corrupti consequatur neque eveniet officia. Eius
+          necessitatibus voluptatem quis labore perspiciatis quia.</h3>
+-->
+
+        <div class="tab-content row justify-content-center" data-aos="fade-up" data-aos-delay="200">
+
+          <div role="tabpanel" class="col-lg-9 tab-pane fade show active" id="day-1">
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>08:30 AM</time></div>
+              <div class="col-md-10">
+                <h4>Welcome and Introduction
+					<a href="" target="_blank" rel="noopener noreferrer">
+						<img border="0" src="assets/img/pdf.gif">
+					</a>
+				</h4>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>08:35 AM</time></div>
+              <div class="col-md-10">
+                <h4>Opening Distinguished Lecture: Putting Memory and Computing in a Single Pool over Compute Express Link
+					<a href="" target="_blank" rel="noopener noreferrer">
+						<img border="0" src="assets/img/pdf.gif">
+					</a>
+					<a href="" target="_blank" rel="noopener noreferrer">
+						<img border="0" src="assets/img/video.png">
+					</a>
+				</h4>
+                <p>Prof. Myoungsoo Jung (Korea Advanced Institute of Science and Technology)</p>
+                <div style="font-size:x-small">
+                    Abstract: Compute express link (CXL) has recently attracted significant attention thanks to its excellent hardware heterogeneity management and resource disaggregation capabilities. Even though there is yet no commercially available product or platform integrating CXL 2.0/3.0 into memory pooling, it is expected to make memory resources practically and efficiently disaggregated much better than ever before. In this lecture, we will argue why existing computing and memory resources require a new interface for cache coherency and demonstrate how CXL can put the different types of resources into a disaggregated pool. As a use case scenario, this lecture will show two real system examples, building a CXL 2.0-based end-to-end system that directly connects a host processor complex and remote memory resources over CXL's memory protocol and a CXL-integrated storage expansion system prototype. At the end of the lecture, we introduce a set of hardware prototypes designed to support the future CXL system (CXL 3.0) as our ongoing project.
+                </div>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>09:10 AM</time></div>
+              <div class="col-md-10">
+                <h4>Methodology for Evaluating the Potential of Disaggregated Memory Systems
+					<a href="" target="_blank" rel="noopener noreferrer">
+						<img border="0" src="assets/img/pdf.gif">
+					</a>
+					<a href="" target="_blank" rel="noopener noreferrer">
+						<img border="0" src="assets/img/video.png">
+					</a>
+				</h4>
+                <p>Nan Ding (LBNL), Samuel Williams (LBNL), Hai Ah Nam (NERSC), Taylor Groves (NERSC), Muaaz Gul Awan (NERSC), Christopher Delay (NERSC), Oguz Selvitopi (LBNL), Leonid Oliker (LBNL), Nicholas Wright (NERSC)</p>
+                <div style="font-size:x-small">
+                    Abstract: Tightly-coupled HPC systems have rigid memory allocation and can result in expensive memory resource under-utilization. As novel memory and network technologies mature, disaggregated memory systems are becoming a promising solution for future HPC systems. It allows workloads to use the available memory of the entire system. We propose a design framework to explore the disaggregated memory system design space. The framework incorporates memory capacity, network bandwidth, and local and remote memory access ratio, and provides an intuitive approach to guide machine configurations based on technology trends and workload characteristics. We apply our framework to analyze eleven workloads from five computational scenarios, including AI training, data analysis, genomics, protein, and traditional HPC. We demonstrate the ability of our methodology to understand the potential and pitfalls of a disaggregated memory system and motivate machine configurations. Our methodology shows that 10 out of our 11 applications/workflows can leverage disaggregated memory without affecting performance.
+                </div>
+              </div>
+            </div>
+	
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>09:35 AM</time></div>
+              <div class="col-md-10">
+                <h4>TPP: Transparent Page Placement for CXL-Enabled Tiered Memory (Invited talk)
+					<a href="" target="_blank" rel="noopener noreferrer">
+						<img border="0" src="assets/img/pdf.gif">
+					</a>
+					<a href="" target="_blank" rel="noopener noreferrer">
+						<img border="0" src="assets/img/video.png">
+					</a>
+				</h4>
+                <p>Hasan Maruf (University of Michigan)</p>
+                <div style="font-size:x-small">
+                    Abstract: CXL-based memory expansion decouples CPU and memory within a single server and enables flexible server design with different generations and types of memory technologies. It can balance the fleet-wide resource utilization and address the  memory bandwidth and capacity scaling challenges in hyperscale datacenters. Without efficient memory management, however, such systems can significantly degrade application-level performance. We propose a novel OS-level application-transparent page placement mechanism (TPP) for efficient CXL-memory management. TPP employs lightweight mechanisms to identify and place hot and cold pages to appropriate memory tiers. It enables page allocation to work independently from page reclamation logic which is tightly-coupled in today's Linux kernel. As a result, the local memory tier has memory headroom for new allocations. At the same time, TPP can promptly promote performance-critical hot pages trapped in the slow memory tiers to the fast tier node. Both promotion and demotion mechanisms work transparently without prior knowledge of an application's memory access behavior. TPP improves Linux's performance by up to 18% and outperforms state-of-the-art solutions for tiered memory by 10–17%. TPP has been actively being used in Meta datacenter for over a year and some parts of it have been merged to the Linux kernel since v5.18.
+                </div>
+              </div>
+            </div>
+	
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>10:00 AM</time></div>
+              <div class="col-md-10">
+                <h4><span>Coffee Break</span></h4>
+              </div>
+            </div>
+
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>10:30 AM</time></div>
+              <div class="col-md-10">
+                <h4>First-Generation Memory Disaggregation for Cloud Platforms (Invited talk)
+					<a href="" target="_blank" rel="noopener noreferrer">
+						<img border="0" src="assets/img/pdf.gif">
+					</a>
+					<a href="" target="_blank" rel="noopener noreferrer">
+						<img border="0" src="assets/img/video.png">
+					</a>
+				</h4>
+                <p>Daniel Berger (Microsoft Corporation)</p>
+                <div style="font-size:x-small">
+                    Abstract: Similar to HPC, public cloud platforms require scaling memory capacity beyond what is feasible on traditional system boards. CXL promises to enable this memory capacity scaling. However, cloud platforms come with stringent performance requirements and seek to support opaque virtual machines without modifications. The CXL standard does not show how to compose full-stack systems from its building blocks or how to expose CXL to the user. This talk presents a first-generation design for public cloud platforms. We particularly focus on the CXL system topology and how to expose CXL to the user. The resulting design can reduce DRAM cost by 7% while guaranteeing performance within 1-5% of same-NUMA-node memory allocations.
+                </div>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>10:55 AM</time></div>
+              <div class="col-md-10">
+                <h4>Industry Talk: Compute Express Link (CXL*): Open Interconnect for building Composable Systems
+					<a href="" target="_blank" rel="noopener noreferrer">
+						<img border="0" src="assets/img/pdf.gif">
+					</a>
+					<a href="" target="_blank" rel="noopener noreferrer">
+						<img border="0" src="assets/img/video.png">
+					</a>
+				</h4>
+                <p>Debendra Das Sharma (Intel Corporation)</p>
+                <div style="font-size:x-small">
+                    Abstract: CXL is a dynamic multi-protocol interconnect technology designed to support accelerators and memory devices. CXL provides a rich set of protocols that include I/O semantics similar to PCIe (i.e., CXL.io), caching protocol semantics (i.e., CXL.cache), and memory access semantics (i.e., CXL.mem) over PCIe PHY. CXL 2.0 specification enabled additional usage models beyond CXL 1.1, while being fully backwards compatible with CXL 1.1 (and CXL 1.0). CXL 2.0 enables dynamic resource allocation including memory and accelerator dis-aggregation across multiple domains. It enables switching, managed hot-plug, security enhancements, persistence memory support, memory error reporting, and telemetry. CXL 3.0 doubles the bandwidth while providing larger scale composable systems with fabrics. 
+					The availability of commercial IP blocks, Verification IPs, and industry standard internal interfaces enables CXL to be widely deployed across the industry. These along with a well-defined compliance program will ensure smooth interoperability across CXL devices in the industry.
+                </div>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>11:20 AM</time></div>
+              <div class="col-md-10">
+                <h4>Panel Discussion and Workshop Q&A
+					<a href="" target="_blank" rel="noopener noreferrer">
+						<img border="0" src="assets/img/pdf.gif">
+					</a>
+					<a href="" target="_blank" rel="noopener noreferrer">
+						<img border="0" src="assets/img/video.png">
+					</a>
+				</h4>
+                <p>Myoungsoo Jung (Korea Advanced Institute of Science and Technology), Nan Ding (LBNL), Hasan Maruf (University of Michigan), Daniel Berger (Microsoft Corporation), Debendra Das Sharma (Intel Corporation)</p>
+                <div style="font-size:x-small">
+                </div>
+              </div>
+            </div>
+
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>12:00 PM</time></div>
+              <div class="col-md-10">
+                <h4>Adjourn</h4>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- End Schedule Section -->
+
+    <!-- ======= Venue Section ======= -->
+    <section id="venue" class="section-with-bg">
+
+      <div class="container-fluid" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Event Venue</h2>
+          <p>Room D172, Kay Bailey Hutchison Convention Center Dallas, TX, USA</p>
+        </div>
+
+        <div class="row g-0">
+          <div class="col-lg-6 venue-map">
+		    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13418.764981554043!2d-96.8017317!3d32.7739262!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xae0261a23eab57d2!2sKay%20Bailey%20Hutchison%20Convention%20Center%20Dallas!5e0!3m2!1sen!2sjp!4v1645150952421!5m2!1sen!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+
+          <div class="col-lg-6 venue-info">
+            <div class="row justify-content-center">
+              <div class="col-11 col-lg-8 position-relative">
+                <h3>Kay Bailey Hutchison Convention Center</h3>
+                <p>Located in the heart of downtown Dallas, the convention center features 1 million square feet of prime exhibit space and is close to hotels, dining, attractions, shopping, and public transportation. <br/><br/>
+
+The convention center is located just 30 minutes from Dallas/Fort Worth International (DFW) airport and seven minutes from Dallas Love Field (DAL) airport, with several public transportation options readily available. Dallas Area Rapid Transit (DART) has a light rail station at the convention center, and a free D-Link shuttle bus to area shopping and entertainment.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+<!--
+      <div class="container-fluid venue-gallery-container" data-aos="fade-up" data-aos-delay="20">
+        <div class="row g-0">
+
+          <div class="col-lg-4 col-md-4">
+            <div class="venue-gallery">
+              <a href="assets/img/gallery/pic_rccs.jpeg" class="glightbox" data-gall="venue-gallery">
+                <img src="assets/img/gallery/pic_rccs.jpeg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-4">
+            <div class="venue-gallery">
+              <a href="assets/img/gallery/pic_fugaku.jpeg" class="glightbox" data-gall="venue-gallery">
+                <img src="assets/img/gallery/pic_fugaku.jpeg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-4">
+            <div class="venue-gallery">
+              <a href="assets/img/gallery/pic_k.jpeg" class="glightbox" data-gall="venue-gallery">
+                <img src="assets/img/gallery/pic_k.jpeg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+-->
+
+    </section><!-- End Venue Section -->
+
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="section-bg">
+
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Contact Us</h2>
+          <p>If you have any comments/questions, do not hesitate to contact us.</p>
+        </div>
+
+        <div class="row contact-info">
+
+          <div class="col-md-6">
+            <div class="contact-address">
+              <i class="bi bi-geo-alt"></i>
+              <h3>Address</h3>
+			  <address>2501 NE Century Blvd, Hillsboro, <br/>
+						OR 97124, USA <br/>
+						</address>
+<!--              <address>7 Chome-1-26 Minatojima Minamimachi, <br/>
+                       Chuo Ward, Kobe, <br/>
+                       Hyogo 650-0047, <br/>
+                       JAPAN</address>
+-->
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="contact-email">
+              <i class="bi bi-envelope"></i>
+              <h3>Email</h3>
+              <p><a href="mailto:bgerofi@gmail.com">bgerofi_AT_gmail.com</a></p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong>RESDIS</strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!--
+        All the links in the footer should remain intact.
+        You can delete the links only if you purchased the pro version.
+        Licensing information: https://bootstrapmade.com/license/
+        Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=TheEvent
+      -->
+        Designed using <a href="https://www.w3schools.com/bootstrap/bootstrap_ver.asp">Bootstrap</a>
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
