@@ -1,0 +1,94 @@
+==========================================================================
+                             CALL FOR PAPERS
+==========================================================================
+
+3rd IEEE/ACM International Workshop on RESource DISaggregation in High
+Performance Computing (RESDIS’23)
+
+To be held in conjunction with The International Conference for High
+Performance Computing, Networking, Storage and Analysis (SC’23) on November 17,
+2023
+
+In cooperation with the IEEE Computer Society
+
+==========================================================================
+                  https://resdis.github.io/ws/2023/sc/
+==========================================================================
+
+Disaggregation is an emerging compute paradigm that splits existing monolithic
+servers into a number of consolidated single-resource pools that communicate
+over a fast interconnect. This model decouples individual hardware resources,
+including tightly coupled ones such as processors and memory, and enables the
+composition of logical compute platforms with flexible and dynamic hardware
+configurations.
+
+The concept of disaggregation is driven by various recent trends in
+computation. From an application perspective, the increasing importance of data
+analytics and machine learning workloads in HPC centers brings unprecedented
+need for memory capacity, which is in stark contrast with the growing imbalance
+in the peak compute-to-memory capacity ratio of traditional system board based
+server platforms where memory modules are co-located with processors. At the
+hardware front, the proliferation of heterogeneous, special purpose computing
+elements promotes the need for configurable compute platforms, while at the
+same time, the increasing maturity of optical interconnects elevates the
+prospects of better distance independence in networking infrastructure.
+
+The workshop intends to explore various aspects of resource disgregation,
+composability and their implications for high performance computing, both in
+dedicated HPC centers as well as in cloud environments.
+
+
+TOPICS OF INTEREST:
+-------------------
+- Disaggregated hardware in high-performance computing
+- Operating systems and runtime support for disaggregated platforms
+- Simulation of disaggregated platforms with existing infrastructure
+- Runtime systems and programming abstractions for disaggregation and
+  composability
+- Networking for disaggregation, including silicon photonics and optical
+  interconnects
+- Implications of resource disaggregation for scientific computing and
+  HPC applications
+- Algorithm design for disaggregated and composable systems
+- Disaggregated high throughput storage
+- Resource management in disaggregated and composable platforms
+
+
+TIMELINE AND SUBMISSION PROCEDURE:
+----------------------------------
+Submission deadline (extended):    August 11, 2023 (AoE)
+Author notification:               September 8, 2023
+Final papers deadline:             October 29, 2023
+Workshop date:                     November 17, 2023
+
+The workshop proceedings will be published electronically via the IEEE Computer
+Society Digital Library. Submitted manuscripts should be formatted using
+templates and the CCS2012 guide that are available at:
+http://www.acm.org/publications/article-templates/proceedings-template.html/.
+Regular papers must be between 6 and 12 pages, including references and
+figures, short papers are up to 4 pages, including references and figures.
+Prospective authors should submit their papers in PDF format through
+Linklings’ submission site:
+
+https://submissions.supercomputing.org/?page=Submit&id=SC23WorkshopRESDISSubmission&site=sc23
+
+
+WORKSHOP CHAIRS:
+----------------
+Balazs Gerofi           Intel Corporation, USA
+John Shalf              Lawrence Berkeley National Laboratory, USA
+Christian Pinto         IBM Research, Ireland
+
+
+
+PROGRAM COMMITTEE (TENTATIVE):
+------------------------------
+Manya Ghobadi           Massachusetts Institute of Technology, USA
+Madeleine Glick         Columbia University, USA
+Ian Karlin              NVIDIA, USA
+John (Jack) Lange       Oak Ridge National Laboratory, USA
+Ivy Peng                Lawrence Livermore National Laboratory, USA
+Yu Tanaka               Fujitsu, Japan
+Gaël Thomas             Télécom SudParis, France
+
+
