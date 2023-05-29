@@ -9,8 +9,6 @@ To be held in conjunction with The International Conference for High
 Performance Computing, Networking, Storage and Analysis (SC’23) on November 17,
 2023
 
-In cooperation with the IEEE Computer Society
-
 ==========================================================================
                   https://resdis.github.io/ws/2023/sc/
 ==========================================================================
@@ -23,15 +21,17 @@ composition of logical compute platforms with flexible and dynamic hardware
 configurations.
 
 The concept of disaggregation is driven by various recent trends in
-computation. From an application perspective, the increasing importance of data
-analytics and machine learning workloads in HPC centers brings unprecedented
-need for memory capacity, which is in stark contrast with the growing imbalance
-in the peak compute-to-memory capacity ratio of traditional system board based
-server platforms where memory modules are co-located with processors. At the
-hardware front, the proliferation of heterogeneous, special purpose computing
-elements promotes the need for configurable compute platforms, while at the
-same time, the increasing maturity of optical interconnects elevates the
-prospects of better distance independence in networking infrastructure.
+computation. From an application perspective, the increasing importance of
+data analytics and machine learning workloads in HPC centers brings
+unprecedented need for memory capacity, which is in stark contrast with the
+growing imbalance in the peak compute-to-memory capacity ratio of traditional
+system board based server platforms where memory modules are co-located with
+processors.  Meanwhile, traditional simulation workloads leave memory
+underutilized. At the hardware front, the proliferation of heterogeneous,
+special purpose computing elements promotes the need for configurable compute
+platforms, while at the same time, the increasing maturity of optical
+interconnects raises the prospects of better distance independence in
+networking infrastructure.
 
 The workshop intends to explore various aspects of resource disgregation,
 composability and their implications for high performance computing, both in
@@ -56,7 +56,7 @@ TOPICS OF INTEREST:
 
 TIMELINE AND SUBMISSION PROCEDURE:
 ----------------------------------
-Submission deadline (extended):    August 11, 2023 (AoE)
+Submission deadline:               August 11, 2023 (AoE)
 Author notification:               September 8, 2023
 Final papers deadline:             October 29, 2023
 Workshop date:                     November 17, 2023
@@ -83,12 +83,14 @@ Christian Pinto         IBM Research, Ireland
 
 PROGRAM COMMITTEE (TENTATIVE):
 ------------------------------
-Manya Ghobadi           Massachusetts Institute of Technology, USA
-Madeleine Glick         Columbia University, USA
-Ian Karlin              NVIDIA, USA
-John (Jack) Lange       Oak Ridge National Laboratory, USA
-Ivy Peng                Lawrence Livermore National Laboratory, USA
-Yu Tanaka               Fujitsu, Japan
-Gaël Thomas             Télécom SudParis, France
+Michael Aguilar           Sandia National Laboratories, USA
+Paul Carpenter            Barcelona Supercomputing Center, Spain
+Larry Dennison            Nvidia, USA
+Constantinos Evangelinos  IBM Research Europe, Ireland
+Madeleine Glick           Columbia University, USA
+John (Jack) Lange         Oak Ridge National Laboratory, USA
+Ivy Peng                  KTH Royal Institute of Technology, Sweden
+Yu Tanaka                 Fujitsu, Japan
+Gaël Thomas               Télécom SudParis, France
 
 
