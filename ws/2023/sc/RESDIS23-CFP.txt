@@ -10,7 +10,7 @@ Performance Computing, Networking, Storage and Analysis (SC’23) on November 17
 2023
 
 ==========================================================================
-                  https://resdis.github.io/ws/2023/sc/
+                        https://resdis.github.io/
 ==========================================================================
 
 Disaggregation is an emerging compute paradigm that splits existing monolithic
@@ -51,6 +51,7 @@ TOPICS OF INTEREST:
   HPC applications
 - Algorithm design for disaggregated and composable systems
 - Disaggregated high throughput storage
+- Disaggregated heterogeneous accelerators (GPUs, FPGAs, AI Accelerators, etc.)
 - Resource management in disaggregated and composable platforms
 
 
@@ -77,8 +78,7 @@ WORKSHOP CHAIRS:
 ----------------
 Balazs Gerofi           Intel Corporation, USA
 John Shalf              Lawrence Berkeley National Laboratory, USA
-Christian Pinto         IBM Research, Ireland
-
+Christian Pinto         IBM Research Europe, Ireland
 
 
 PROGRAM COMMITTEE (TENTATIVE):
@@ -86,11 +86,9 @@ PROGRAM COMMITTEE (TENTATIVE):
 Michael Aguilar           Sandia National Laboratories, USA
 Paul Carpenter            Barcelona Supercomputing Center, Spain
 Larry Dennison            Nvidia, USA
-Constantinos Evangelinos  IBM Research Europe, Ireland
+Constantinos Evangelinos  IBM Research, Ireland
 Madeleine Glick           Columbia University, USA
 John (Jack) Lange         Oak Ridge National Laboratory, USA
 Ivy Peng                  KTH Royal Institute of Technology, Sweden
 Yu Tanaka                 Fujitsu, Japan
 Gaël Thomas               Télécom SudParis, France
-
-
