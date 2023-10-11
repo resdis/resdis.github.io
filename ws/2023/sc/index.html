@@ -192,7 +192,7 @@
 		  Prospective authors should submit their papers in PDF
 		  format through Linklings’ submission site: <br/><br/>
 
-          <a class="buy-tickets scrollto" href="https://submissions.supercomputing.org/?page=Submit&id=SC23WorkshopRESDISSubmission&site=sc23" target="_blank">Submit Paper</a>
+          <!-- <a class="buy-tickets scrollto" href="https://submissions.supercomputing.org/?page=Submit&id=SC23WorkshopRESDISSubmission&site=sc23" target="_blank">Submit Paper</a> -->
 		  <br/>
 		  <br/>
 		  <br/>
@@ -223,7 +223,7 @@
 			  </div>
 			  <div class="col-md-4" data-aos="fade-up" data-aos-delay="20">
 				  <div class="details">
-					<h5>August 18th (Fri) AoE</h5>
+					<h5><s>August 18th (Fri) AoE</s></h5>
 				  </div>
 			  </div>
 			  <div class="col-md-5" data-aos="fade-up" data-aos-delay="20">
@@ -240,7 +240,7 @@
 			  </div>
 			  <div class="col-md-4" data-aos="fade-up" data-aos-delay="20">
 				  <div class="details">
-					<h5><time>September 8th (Fri)</time></h5>
+					<h5><time><s>September 8th (Fri)</time></s></h5>
 				  </div>
 			  </div>
 			  <div class="col-md-5" data-aos="fade-up" data-aos-delay="20">
@@ -257,7 +257,7 @@
 			  </div>
 			  <div class="col-md-4" data-aos="fade-up" data-aos-delay="20">
 				  <div class="details">
-					<h5><time>September 29th (Fri)</time></h5>
+					<h5><time><s>September 29th (Fri)</s></time></h5>
 				  </div>
 			  </div>
 			  <div class="col-md-5" data-aos="fade-up" data-aos-delay="20">
@@ -534,28 +534,25 @@
         </ul>
         <h3 class="sub-heading">Voluptatem nulla veniam soluta et corrupti consequatur neque eveniet officia. Eius
           necessitatibus voluptatem quis labore perspiciatis quia.</h3>
--->
 
         <div class="tab-content row justify-content-center" data-aos="fade-up" data-aos-delay="200">
 
           <div role="tabpanel" class="col-lg-9 tab-pane fade show active" id="day-1">
 
             <div class="row schedule-item">
-              <!-- <div class="col-md-2"><time>XX:XX AM</time></div> -->
+              <div class="col-md-2"><time>XX:XX AM</time></div>
               <div class="col-md-10">
                 <h4>To be announced
-					<!--
 					<a href="" target="_blank" rel="noopener noreferrer">
 						<img border="0" src="assets/img/pdf.gif">
 					</a>
-					-->
 				</h4>
               </div>
             </div>
 		  </div>
 		</div>
+-->
 
-<!--
         <div class="tab-content row justify-content-center" data-aos="fade-up" data-aos-delay="200">
 
           <div role="tabpanel" class="col-lg-9 tab-pane fade show active" id="day-1">
@@ -572,9 +569,9 @@
             </div>
 
             <div class="row schedule-item">
-              <div class="col-md-2"><time>08:35 AM</time></div>
+              <div class="col-md-2"><time>08:40 AM</time></div>
               <div class="col-md-10">
-                <h4>Opening Distinguished Lecture: Putting Memory and Computing in a Single Pool over Compute Express Link
+                <h4>Keynote: The Open Chiplet Economy and its Application to HPC
 					<a href="" target="_blank" rel="noopener noreferrer">
 						<img border="0" src="assets/img/pdf.gif">
 					</a>
@@ -582,17 +579,27 @@
 						<img border="0" src="assets/img/video.png">
 					</a>
 				</h4>
-                <p>Prof. Myoungsoo Jung (Korea Advanced Institute of Science and Technology)</p>
+                <p>Bapiraju Vinnakota (Lawrence Berkeley National Laboratory)</p>
                 <div style="font-size:x-small">
-                    Abstract: Compute express link (CXL) has recently attracted significant attention thanks to its excellent hardware heterogeneity management and resource disaggregation capabilities. Even though there is yet no commercially available product or platform integrating CXL 2.0/3.0 into memory pooling, it is expected to make memory resources practically and efficiently disaggregated much better than ever before. In this lecture, we will argue why existing computing and memory resources require a new interface for cache coherency and demonstrate how CXL can put the different types of resources into a disaggregated pool. As a use case scenario, this lecture will show two real system examples, building a CXL 2.0-based end-to-end system that directly connects a host processor complex and remote memory resources over CXL's memory protocol and a CXL-integrated storage expansion system prototype. At the end of the lecture, we introduce a set of hardware prototypes designed to support the future CXL system (CXL 3.0) as our ongoing project.
+                    Abstract:
+					Multiple technological and business trends are driving a change to realizing semiconductor products
+					as systems in package (SiP) that integrate multiple die, usually referred to as chiplets, into a single
+					package. Compared to monolithic SoCs, chiplet-based designs require an evolution in architecture,
+					interfaces, design and manufacturing flows. Several large companies have already made the transition to
+					chiplet-based designs with proprietary tools and technologies. Many have not and need the expertise
+					to do so. A new and open Chiplet economy to help more companies adopt chiplet technologies. It is
+					based on and will require collaboration and standardizations on multiple dimensions, ensuring that
+					companies are able to interact in an open, efficient and scalable manner. This talk
+					will profile the chiplet economy including its motivations, standards, participants and current status.
+					It will close with an overview of the potential relevance of the open chiplet economy to HPC.
                 </div>
               </div>
             </div>
 
             <div class="row schedule-item">
-              <div class="col-md-2"><time>09:10 AM</time></div>
+              <div class="col-md-2"><time>09:30 AM</time></div>
               <div class="col-md-10">
-                <h4>Methodology for Evaluating the Potential of Disaggregated Memory Systems
+                <h4>Sunfish: An Open Centralized Composable HPC Management Framework
 					<a href="" target="_blank" rel="noopener noreferrer">
 						<img border="0" src="assets/img/pdf.gif">
 					</a>
@@ -600,27 +607,10 @@
 						<img border="0" src="assets/img/video.png">
 					</a>
 				</h4>
-                <p>Nan Ding (LBNL), Samuel Williams (LBNL), Hai Ah Nam (NERSC), Taylor Groves (NERSC), Muaaz Gul Awan (NERSC), Christopher Delay (NERSC), Oguz Selvitopi (LBNL), Leonid Oliker (LBNL), Nicholas Wright (NERSC)</p>
+                <p>Phil Cayton (Intel Corporation), Michael Aguilar (Sandia National Laboratories), and Christian Pinto (IBM Research Europe)</p>
                 <div style="font-size:x-small">
-                    Abstract: Tightly-coupled HPC systems have rigid memory allocation and can result in expensive memory resource under-utilization. As novel memory and network technologies mature, disaggregated memory systems are becoming a promising solution for future HPC systems. It allows workloads to use the available memory of the entire system. We propose a design framework to explore the disaggregated memory system design space. The framework incorporates memory capacity, network bandwidth, and local and remote memory access ratio, and provides an intuitive approach to guide machine configurations based on technology trends and workload characteristics. We apply our framework to analyze eleven workloads from five computational scenarios, including AI training, data analysis, genomics, protein, and traditional HPC. We demonstrate the ability of our methodology to understand the potential and pitfalls of a disaggregated memory system and motivate machine configurations. Our methodology shows that 10 out of our 11 applications/workflows can leverage disaggregated memory without affecting performance.
-                </div>
-              </div>
-            </div>
-	
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>09:35 AM</time></div>
-              <div class="col-md-10">
-                <h4>TPP: Transparent Page Placement for CXL-Enabled Tiered Memory (Invited talk)
-					<a href="" target="_blank" rel="noopener noreferrer">
-						<img border="0" src="assets/img/pdf.gif">
-					</a>
-					<a href="" target="_blank" rel="noopener noreferrer">
-						<img border="0" src="assets/img/video.png">
-					</a>
-				</h4>
-                <p>Hasan Maruf (University of Michigan)</p>
-                <div style="font-size:x-small">
-                    Abstract: CXL-based memory expansion decouples CPU and memory within a single server and enables flexible server design with different generations and types of memory technologies. It can balance the fleet-wide resource utilization and address the  memory bandwidth and capacity scaling challenges in hyperscale datacenters. Without efficient memory management, however, such systems can significantly degrade application-level performance. We propose a novel OS-level application-transparent page placement mechanism (TPP) for efficient CXL-memory management. TPP employs lightweight mechanisms to identify and place hot and cold pages to appropriate memory tiers. It enables page allocation to work independently from page reclamation logic which is tightly-coupled in today's Linux kernel. As a result, the local memory tier has memory headroom for new allocations. At the same time, TPP can promptly promote performance-critical hot pages trapped in the slow memory tiers to the fast tier node. Both promotion and demotion mechanisms work transparently without prior knowledge of an application's memory access behavior. TPP improves Linux's performance by up to 18% and outperforms state-of-the-art solutions for tiered memory by 10–17%. TPP has been actively being used in Meta datacenter for over a year and some parts of it have been merged to the Linux kernel since v5.18.
+                    Abstract: 
+					Traditional HPC systems are provisioned with sets of static fixed quantities of resources (e.g., memory, storage, accelerators, CPU) to execute requested computation. This is not sufficient for today’s datacenters running modern dynamic workloads, resulting in workloads executing on systems not optimized for their needs. Datacenters often end up over-provisioning systems with hardware resources to provide workload versatility in HPC clusters. Extending Composable Disaggregated Infrastructure (CDI) to HPC architectures enables servers to be composed out of physically disaggregated resources to match the requirements of a workload. Central resource management, using a standardized interface, enables client applications to monitor, compose, and intelligently optimize resource provisioning. The OpenFabrics Alliance in collaboration with DMTF, SNIA, and the CXL Consortium, is developing the Sunfish Management Framework for intelligent HPC CDI control. The goal of Sunfish is to enable interoperability through common interfaces for connecting workloads with resources, without having to worry about underlying hardware technologies.
                 </div>
               </div>
             </div>
@@ -637,7 +627,7 @@
             <div class="row schedule-item">
               <div class="col-md-2"><time>10:30 AM</time></div>
               <div class="col-md-10">
-                <h4>First-Generation Memory Disaggregation for Cloud Platforms (Invited talk)
+                <h4>RISA: Round-Robin Intra-Rack Friendly Scheduling Algorithm for Disaggregated Datacenters
 					<a href="" target="_blank" rel="noopener noreferrer">
 						<img border="0" src="assets/img/pdf.gif">
 					</a>
@@ -645,17 +635,18 @@
 						<img border="0" src="assets/img/video.png">
 					</a>
 				</h4>
-                <p>Daniel Berger (Microsoft Corporation)</p>
+                <p>Rashadul Kabir (Colorado State University), Ryan G. Kim (Intel Corporation), Mahdi Nikdast (Colorado State University)</p>
                 <div style="font-size:x-small">
-                    Abstract: Similar to HPC, public cloud platforms require scaling memory capacity beyond what is feasible on traditional system boards. CXL promises to enable this memory capacity scaling. However, cloud platforms come with stringent performance requirements and seek to support opaque virtual machines without modifications. The CXL standard does not show how to compose full-stack systems from its building blocks or how to expose CXL to the user. This talk presents a first-generation design for public cloud platforms. We particularly focus on the CXL system topology and how to expose CXL to the user. The resulting design can reduce DRAM cost by 7% while guaranteeing performance within 1-5% of same-NUMA-node memory allocations.
+                    Abstract: 
+					Recent trends see a move away from a fixed-resource server-centric datacenter model to a more adaptable “disaggregated” datacenter model. These disaggregated datacenters can then dynamically group resources to the specific requirements of an incoming workload, thereby improving efficiency. To properly utilize these disaggregated datacenters, workload allocation techniques must examine the current state of the datacenter and choose resources that not only optimizes the current workload request, but future ones. Since disaggreated datacenters are severely bottlenecked by the avaiable network resources, our work proposes a heuristic-based approach called RISA, which significantly reduces the network usage of workload allocations in disaggregated datacenters. Compared to the state-of-the-art, RISA reduces the power consumption for optical components by 33% and reduces the average CPU-RAM round-trip latency by 50%. Additionally, RISA significantly outperforms the state-of-the-art in terms of execution time.
                 </div>
               </div>
             </div>
 
             <div class="row schedule-item">
-              <div class="col-md-2"><time>10:55 AM</time></div>
+              <div class="col-md-2"><time>11:00 AM</time></div>
               <div class="col-md-10">
-                <h4>Industry Talk: Compute Express Link (CXL*): Open Interconnect for building Composable Systems
+                <h4>Disaggregation in Practice: Industry Session
 					<a href="" target="_blank" rel="noopener noreferrer">
 						<img border="0" src="assets/img/pdf.gif">
 					</a>
@@ -663,18 +654,22 @@
 						<img border="0" src="assets/img/video.png">
 					</a>
 				</h4>
-                <p>Debendra Das Sharma (Intel Corporation)</p>
+                <p>
+				 Prashanth Krishnamurthy (Liqid), Dan Ernst (Microsoft), Jianping Jiang (XConn), John Ihnotic (GigaI/O), Keren Bergman (Xscape Photonics)
+				</p>
+				<!--
                 <div style="font-size:x-small">
                     Abstract: CXL is a dynamic multi-protocol interconnect technology designed to support accelerators and memory devices. CXL provides a rich set of protocols that include I/O semantics similar to PCIe (i.e., CXL.io), caching protocol semantics (i.e., CXL.cache), and memory access semantics (i.e., CXL.mem) over PCIe PHY. CXL 2.0 specification enabled additional usage models beyond CXL 1.1, while being fully backwards compatible with CXL 1.1 (and CXL 1.0). CXL 2.0 enables dynamic resource allocation including memory and accelerator dis-aggregation across multiple domains. It enables switching, managed hot-plug, security enhancements, persistence memory support, memory error reporting, and telemetry. CXL 3.0 doubles the bandwidth while providing larger scale composable systems with fabrics. 
 					The availability of commercial IP blocks, Verification IPs, and industry standard internal interfaces enables CXL to be widely deployed across the industry. These along with a well-defined compliance program will ensure smooth interoperability across CXL devices in the industry.
                 </div>
+				-->
               </div>
             </div>
 
             <div class="row schedule-item">
-              <div class="col-md-2"><time>11:20 AM</time></div>
+              <div class="col-md-2"><time>11:25 AM</time></div>
               <div class="col-md-10">
-                <h4>Panel Discussion and Workshop Q&A
+                <h4>Panel Discussion
 					<a href="" target="_blank" rel="noopener noreferrer">
 						<img border="0" src="assets/img/pdf.gif">
 					</a>
@@ -682,7 +677,9 @@
 						<img border="0" src="assets/img/video.png">
 					</a>
 				</h4>
-                <p>Myoungsoo Jung (Korea Advanced Institute of Science and Technology), Nan Ding (LBNL), Hasan Maruf (University of Michigan), Daniel Berger (Microsoft Corporation), Debendra Das Sharma (Intel Corporation)</p>
+                <p>
+				 Phil Cayton (Intel), Rashadul Kabir (Colorado State University), Prashanth Krishnamurthy (Liqid), Dan Ernst (Microsoft), Jianping Jiang (XConn), John Ihnotic (GigaI/O), Keren Bergman (Xscape Photonics)
+				</p>
                 <div style="font-size:x-small">
                 </div>
               </div>
@@ -700,7 +697,6 @@
 
         </div>
 
--->
       </div>
 
     </section><!-- End Schedule Section -->
