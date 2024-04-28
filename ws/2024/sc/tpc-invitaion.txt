@@ -1,0 +1,46 @@
+Dear [their first name],
+
+We would like to invite you to serve on the program committee of the 3rd
+International Workshop on RESource DISaggregation in High-Performance
+Computing (RESDIS 2023) to be held in conjunction with the 2023 International
+Conference for High Performance Computing, Networking, Storage and Analysis
+(SC 2023).
+
+The website of the previous edition of the workshop is as follows:
+
+https://resdis.github.io/ws/2022/sc/
+
+The workshop focuses on resource disaggregation and composable systems in
+high-performance computing. Your most important responsibility as a program
+committee member would be to review paper submissions.  We expect no more than
+two paper reviews per PC member.  We are using the Linklings conference
+management system.  There will be no physical program committee meeting
+(workshop chairs will make acceptance decisions based on the reviews and any
+follow-up discussions between reviewers in Linklings).
+
+Tentative timeline:
+
+August 11th (Fri):     Submission deadline
+September 1st (Fri):   Reviews due
+September 8th (Fri):   Acceptance notification
+September 29th (Fri):  Final paper deadline
+November 17th (Fri):   Workshop date
+
+We are strongly encouraging PC submissions and there is no limit on the
+number of such submissions.  Once the Call for Papers is out, we will also
+ask you to help solicit submissions from your collaborators and colleagues.
+
+The workshop has not been publicly announced yet and the website for 2023 is
+under construction.
+
+Please respond to this invitation at your earliest convenience, but not later
+than Friday, May 12th.
+
+We look forward to hearing from you and hope that you will accept this
+invitation.
+
+Best regards,
+
+Balazs Gerofi <balazs.gerofi@intel.com>
+John Shalf <jshalf@lbl.gov>
+Christian Pinto <christian.pinto@ibm.com>
