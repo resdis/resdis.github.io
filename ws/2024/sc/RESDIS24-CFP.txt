@@ -56,10 +56,10 @@ TOPICS OF INTEREST:
 
 TIMELINE AND SUBMISSION PROCEDURE:
 ----------------------------------
-Submission deadline:               August 2, 2024 (AoE)
-Author notification:               August 30, 2024
-Final papers deadline:             September 15, 2024
-Workshop date:                     November 17|18|22 (TBA), 2024
+Submission deadline:               August 9, 2024 (AoE)
+Author notification:               September 6, 2024
+Final papers deadline:             September 27, 2024
+Workshop date:                     November 17, 2024
 
 The workshop proceedings will be published electronically via the
 IEEE Computer Society Digital Library.  Submitted manuscripts must
@@ -81,10 +81,11 @@ John Shalf              Lawrence Berkeley National Laboratory, USA
 Christian Pinto         IBM Research Europe, Ireland
 
 
-PROGRAM COMMITTEE (TO BE CONFIRMED):
+PROGRAM COMMITTEE:
 ------------------------------------
 Michael Aguilar           Sandia National Laboratories, USA
 Larry Dennison            Nvidia, USA
+Thaleia Dimitra Doudali   IMDEA Software Institute, Spain
 Kyle Hale                 Illinois Institute of Technology, USA
 John (Jack) Lange         Oak Ridge National Laboratory, USA
 Ivy Peng                  KTH Royal Institute of Technology, Sweden

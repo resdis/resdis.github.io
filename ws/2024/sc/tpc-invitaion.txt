@@ -1,14 +1,14 @@
 Dear [their first name],
 
-We would like to invite you to serve on the program committee of the 3rd
+We would like to invite you to serve on the program committee of the 4th
 International Workshop on RESource DISaggregation in High-Performance
-Computing (RESDIS 2023) to be held in conjunction with the 2023 International
+Computing (RESDIS 2024) to be held in conjunction with the 2024 International
 Conference for High Performance Computing, Networking, Storage and Analysis
-(SC 2023).
+(SC 2024).
 
 The website of the previous edition of the workshop is as follows:
 
-https://resdis.github.io/ws/2022/sc/
+https://resdis.github.io/ws/2023/sc/
 
 The workshop focuses on resource disaggregation and composable systems in
 high-performance computing. Your most important responsibility as a program
@@ -20,21 +20,21 @@ follow-up discussions between reviewers in Linklings).
 
 Tentative timeline:
 
-August 11th (Fri):     Submission deadline
-September 1st (Fri):   Reviews due
-September 8th (Fri):   Acceptance notification
-September 29th (Fri):  Final paper deadline
-November 17th (Fri):   Workshop date
+August 2nd (Fri):      Submission deadline
+August 23rd (Fri):     Reviews due
+August 30th (Fri):     Acceptance notification
+September 27th (Fri):  Final paper deadline
+November 22nd (Fri):   Workshop date
 
 We are strongly encouraging PC submissions and there is no limit on the
 number of such submissions.  Once the Call for Papers is out, we will also
 ask you to help solicit submissions from your collaborators and colleagues.
 
-The workshop has not been publicly announced yet and the website for 2023 is
+The workshop has not been publicly announced yet and the website for 2024 is
 under construction.
 
 Please respond to this invitation at your earliest convenience, but not later
-than Friday, May 12th.
+than Saturday, May 4th.
 
 We look forward to hearing from you and hope that you will accept this
 invitation.
