@@ -258,7 +258,7 @@
 			  </div>
 			  <div class="col-md-4" data-aos="fade-up" data-aos-delay="20">
 				  <div class="details">
-					<h5><time>September 27th (Fri)</time></h5>
+					<h5><s><time>September 27th (Fri)</time></s></h5>
 				  </div>
 			  </div>
 			  <div class="col-md-5" data-aos="fade-up" data-aos-delay="20">
@@ -521,16 +521,15 @@
           <p>All times in Eastern Time (UTC-4)</p>
         </div>
 
-        <h3 class="sub-heading">TBA</h3>
+        <!-- <h3 class="sub-heading">TBA</h3> -->
 
-<!--
 
         <div class="tab-content row justify-content-center" data-aos="fade-up" data-aos-delay="200">
 
           <div role="tabpanel" class="col-lg-9 tab-pane fade show active" id="day-1">
 
             <div class="row schedule-item">
-              <div class="col-md-2"><time>08:30 AM</time></div>
+              <div class="col-md-2"><time>09:00 AM</time></div>
               <div class="col-md-10">
                 <h4>Welcome and Introduction
 					<a href="assets/pdfs/RESDIS24-Intro.pdf" target="_blank" rel="noopener noreferrer">
@@ -541,63 +540,19 @@
             </div>
 
             <div class="row schedule-item">
-              <div class="col-md-2"><time>08:35 AM</time></div>
+              <div class="col-md-2"><time>09:10 AM</time></div>
               <div class="col-md-10">
-                <h4>Keynote: The Open Chiplet Economy and its Application to HPC
+                <h4>Keynote: Chiplets for Disaggregated Systems
 					<a href="" target="_blank" rel="noopener noreferrer">
 						<img border="0" src="assets/img/pdf.gif">
 					</a>
 				</h4>
-                <p>Bapiraju Vinnakota (Lawrence Berkeley National Laboratory)</p>
+                <p>Cliff Grossner (Open Compute)</p>
                 <div style="font-size:x-small">
-                    Abstract:
-					Multiple technological and business trends are driving a change to realizing semiconductor products
-					as systems in package (SiP) that integrate multiple die, usually referred to as chiplets, into a single
-					package. Compared to monolithic SoCs, chiplet-based designs require an evolution in architecture,
-					interfaces, design and manufacturing flows. Several large companies have already made the transition to
-					chiplet-based designs with proprietary tools and technologies. Many have not and need the expertise
-					to do so. A new and open Chiplet economy to help more companies adopt chiplet technologies. It is
-					based on and will require collaboration and standardizations on multiple dimensions, ensuring that
-					companies are able to interact in an open, efficient and scalable manner. This talk
-					will profile the chiplet economy including its motivations, standards, participants and current status.
-					It will close with an overview of the potential relevance of the open chiplet economy to HPC.
+                    Abstract: TBA
                 </div>
               </div>
             </div>
-
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>09:20 AM</time></div>
-              <div class="col-md-10">
-                <h4>Sunfish: An Open Centralized Composable HPC Management Framework
-					<a href="assets/pdfs/sunfish-Aguilar-RESDIS24.pdf" target="_blank" rel="noopener noreferrer">
-						<img border="0" src="assets/img/pdf.gif">
-					</a>
-
-				</h4>
-                <p>Phil Cayton (Intel Corporation), Michael Aguilar (Sandia National Laboratories), and Christian Pinto (IBM Research Europe)</p>
-                <div style="font-size:x-small">
-                    Abstract: 
-					Traditional HPC systems are provisioned with sets of static fixed quantities of resources (e.g., memory, storage, accelerators, CPU) to execute requested computation. This is not sufficient for today’s datacenters running modern dynamic workloads, resulting in workloads executing on systems not optimized for their needs. Datacenters often end up over-provisioning systems with hardware resources to provide workload versatility in HPC clusters. Extending Composable Disaggregated Infrastructure (CDI) to HPC architectures enables servers to be composed out of physically disaggregated resources to match the requirements of a workload. Central resource management, using a standardized interface, enables client applications to monitor, compose, and intelligently optimize resource provisioning. The OpenFabrics Alliance in collaboration with DMTF, SNIA, and the CXL Consortium, is developing the Sunfish Management Framework for intelligent HPC CDI control. The goal of Sunfish is to enable interoperability through common interfaces for connecting workloads with resources, without having to worry about underlying hardware technologies.
-                </div>
-              </div>
-            </div>
-	
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>09:40 AM</time></div>
-              <div class="col-md-10">
-                <h4>RISA: Round-Robin Intra-Rack Friendly Scheduling Algorithm for Disaggregated Datacenters
-					<a href="assets/pdfs/RISA-Kabir-RESDIS23.pdf" target="_blank" rel="noopener noreferrer">
-						<img border="0" src="assets/img/pdf.gif">
-					</a>
-				</h4>
-                <p>Rashadul Kabir (Colorado State University), Ryan G. Kim (Intel Corporation), Mahdi Nikdast (Colorado State University)</p>
-                <div style="font-size:x-small">
-                    Abstract: 
-					Recent trends see a move away from a fixed-resource server-centric datacenter model to a more adaptable “disaggregated” datacenter model. These disaggregated datacenters can then dynamically group resources to the specific requirements of an incoming workload, thereby improving efficiency. To properly utilize these disaggregated datacenters, workload allocation techniques must examine the current state of the datacenter and choose resources that not only optimizes the current workload request, but future ones. Since disaggreated datacenters are severely bottlenecked by the avaiable network resources, our work proposes a heuristic-based approach called RISA, which significantly reduces the network usage of workload allocations in disaggregated datacenters. Compared to the state-of-the-art, RISA reduces the power consumption for optical components by 33% and reduces the average CPU-RAM round-trip latency by 50%. Additionally, RISA significantly outperforms the state-of-the-art in terms of execution time.
-                </div>
-              </div>
-            </div>
-
 
             <div class="row schedule-item">
               <div class="col-md-2"><time>10:00 AM</time></div>
@@ -606,49 +561,102 @@
               </div>
             </div>
 
-
             <div class="row schedule-item">
               <div class="col-md-2"><time>10:30 AM</time></div>
               <div class="col-md-10">
-                <h4>Disaggregation in Practice: Industry Session
+                <h4>Examining the Viability of Row-Scale Disaggregation for Production Applications
+					<a href="assets/pdfs/" target="_blank" rel="noopener noreferrer">
+						<img border="0" src="assets/img/pdf.gif">
+					</a>
+
 				</h4>
-                <p>
-				 Phillip Clark (Liqid) 
-         <a href="assets/pdfs/Liqid-Clark-RESDIS23.pdf" target="_blank" rel="noopener noreferrer">
-          <img border="0" src="assets/img/pdf.gif">
-         </a>,
-         Jianping Jiang (XConn)
-         <a href="assets/pdfs/XConn-Jiang-RESDIS23.pdf" target="_blank" rel="noopener noreferrer">
-          <img border="0" src="assets/img/pdf.gif">
-         </a>, 
-         John Ihnotic (GigaIO)
-         <a href="" target="_blank" rel="noopener noreferrer">
-          <img border="0" src="assets/img/pdf.gif">
-         </a>, 
-         Keren Bergman (Xscape Photonics)
-         <a href="https://www.dropbox.com/scl/fi/d1yub6xc7zz91gxnz8mgc/KBergman-SC_Adaptable_AI_arch.pdf?rlkey=jrw7s1iu5oaue0zvmfhuyrjsa&dl=1" target="_blank" rel="noopener noreferrer">
-          <img border="0" src="assets/img/pdf.gif">
-         </a>
-				</p>
+                <p>Curtis Shorts (Queen's University), Ryan Eric Grant (Queen's University)</p>
+                <div style="font-size:x-small">
+                    Abstract: 
+					Row-scale Composable Disaggregated Infrastructure (CDI) is a heterogeneous high performance computing (HPC) architecture that relocates the GPUs to a single chassis which CPU nodes can then request compute resources from. This is a distinctly different architecture from rack-scaled CDI as the GPUs are accessed over a network rather than existing in the same PCIe domain as the CPUs. We perform comparisons between the kernel and data transfer characteristics of two production applications to a slack proxy application which allowed for the development of a mathematical model to predict the performance penalty generalized applications can face as a result of slack. Our proposed method found that the applications tested would pessimistically see a less than 1% performance penalty above the effects of crossing the network in an environment which induced 100 us of slack, thus demonstrating that row-scale CDI is a viable technology from an application performance perspective.
+                </div>
+              </div>
+            </div>
+	
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>10:50 AM</time></div>
+              <div class="col-md-10">
+                <h4>Granularity and Interference-Aware GPU Sharing with MPS
+					<a href="assets/pdfs/" target="_blank" rel="noopener noreferrer">
+						<img border="0" src="assets/img/pdf.gif">
+					</a>
+				</h4>
+                <p>Alex Weaver (University of North Texas), Krishna Kavi (University of North Texas), Dejan Milojicic (Hewlett Packard Enterprise), Rolando Pablo Hong Enriquez (Hewlett Packard Enterprise), Ninad Hogade (Hewlett Packard Enterprise), Alok Mishra (Hewlett Packard Enterprise), Gayatri Mehta (University of North Texas)</p>
+                <div style="font-size:x-small">
+                    Abstract: 
+					With the advent of exascale computing, GPU acceleration has become central to the performance of supercomputers. Even at this extreme scale, most scientific and HPC-scale DNN applications underutilize GPU resources. Existing GPU sharing mechanisms can be used to increase utilization, throughput, and energy efficiency. However, naively co-scheduling workflows often does not yield optimal results. Scheduling multiple high-utilization workloads on the same set of GPUs, for example, leads to performance degradation due to high resource contention. In short, GPU sharing must be granularity- and interference-aware to maximize the benefit. We propose a scheduling approach that optimizes workflow scheduling configurations for given system metrics--i.e., throughput and energy efficiency, uses workload profiling data to right-size GPU resources for combinations of HPC workflows, and collocates workflows using existing concurrency mechanisms. We show that choosing the right arrangement of workflows to collocate can increase throughput by as much as 2x and energy efficiency by 1.6x.
+                </div>
               </div>
             </div>
 
             <div class="row schedule-item">
               <div class="col-md-2"><time>11:10 AM</time></div>
               <div class="col-md-10">
-                <h4>Panel Discussion
+                <h4>Towards Disaggregated NDP Architectures for Large-scale Graph Analytics
+					<a href="assets/pdfs/" target="_blank" rel="noopener noreferrer">
+						<img border="0" src="assets/img/pdf.gif">
+					</a>
+				</h4>
+                <p>Suyeon Lee (Georgia Institute of Technology), Vishal Rao (Georgia Institute of Technology), Ada Gavrilovska (Georgia Institute of Technology)</p>
+                <div style="font-size:x-small">
+                    Abstract: 
+					The performance of large-scale graph analytics is limited by the capacity and performance of the memory subsystem on the platforms on which they execute. In this paper, we first discuss the limitations of existing approaches to scaling graph processing, and describe how they can be addressed via the use of disaggregated solutions with near-data processing (NDP) capabilities. Using observations from experimental analysis of the tradeoffs for different types of graphs and analytics kernels, we then identify the systems-level mechanisms that will be required by future graph analytics frameworks for disaggregated NDP architectures.
+                </div>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>11:30 AM</time></div>
+              <div class="col-md-10">
+                <h4>Multi-Host Sharing of a Single-Function NVMe Device in a PCIe Cluster
+					<a href="assets/pdfs/" target="_blank" rel="noopener noreferrer">
+						<img border="0" src="assets/img/pdf.gif">
+					</a>
+				</h4>
+                <p>Jonas Markussen (Dolphin Interconnect Solutions), Lars Bjørlykke Kristiansen (Dolphin Interconnect Solutions), Håkon Stensland (Simula Research Laboratory / University of Oslo), Pål Halvorsen (SimulaMet / Oslo Metropolitan University)</p>
+                <div style="font-size:x-small">
+                    Abstract: 
+					Distributed cluster applications, including machine learning tasks, database applications, and HPC workloads, often rely on NVMe-oF using RDMA for fast, block-level access to storage devices over a network. However, RDMA solutions add extra latency by requiring software on the critical path. In this paper, we present a distributed NVMe driver for sharing NVMe storage devices across hosts in a PCIe cluster. By building on PCIe shared memory capabilities, we demonstrate disaggregation of NVMe controllers at the I/O queue level, allowing them to be used in parallel by remote hosts without relying on RDMA. Our experimental results prove that our PCIe-based solution reduces network latency and is comparable to local access.
+                </div>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>11:50 AM</time></div>
+              <div class="col-md-10">
+                <h4>A Software Platform to Support Disaggregated Quantum Accelerators
+					<a href="assets/pdfs/" target="_blank" rel="noopener noreferrer">
+						<img border="0" src="assets/img/pdf.gif">
+					</a>
+				</h4>
+                <p>Ercüment Kaya (Leibniz Supercomputing Centre / TU Munich), Jorge Echavarria (Leibniz Supercomputing Centre), Muhammad Nufail Farooqi (Leibniz Supercomputing Centre), Aleksandra Swierkowska (Leibniz Supercomputing Centre / TU Munich), Patrick Hopf (Leibniz Supercomputing Centre / TU Munich), Burak Mete (Leibniz Supercomputing Centre / TU Munich), Laura Schulz (Leibniz Supercomputing Centre), Martin Schulz (TU Munich)</p>
+                <div style="font-size:x-small">
+                    Abstract: 
+					Quantum computers are making their way into High Performance Computing centers in the form of accelerators. Due to their physical implementation as mostly large appliances in separate racks, their number in typical data centers is significantly lower than the number of nodes offloading work to them, unlike the case with GPU accelerators. As a consequence, they form large-scale disaggregated infrastructures that pose a number of integration challenges due to their diverse implementation technologies and their need to be used as a shared resource for optimal utilization. Running hybrid High Performance Computing-Quantum Computing (HPCQC) applications in HPC environments, where the quantum portion is offloaded to the quantum processing units requires sophisticated resource management strategies to optimize resource utilization and performance. In this paper, we present the Munich Quantum Software Stack (MQSS), a Just-In-Time (JIT) compilation and execution software stack tailored for integrating disaggregated quantum accelerators into traditional HPC workflows.
+                </div>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>12:10 PM</time></div>
+              <div class="col-md-10">
+                <h4>Paper Q&A and Panel Discussion
 				</h4>
                 <p>
-				 Michael Aguilar (Sandia National Laboratories), Rashadul Kabir (Colorado State University), Phillip Clark (Liqid), Dan Ernst (Microsoft), Jianping Jiang (XConn), John Ihnotic (GigaIO), Keren Bergman (Xscape Photonics)
+				 Curtis Shorts (Queen's University), Alex Weaver (University of North Texas), Suyeon Lee (Georgia Institute of Technology), Jonas Markussen (Dolphin Interconnect Solutions), Ercüment Kaya (Leibniz Supercomputing Centre / TU Munich)
 				</p>
                 <div style="font-size:x-small">
                 </div>
               </div>
             </div>
 
-
             <div class="row schedule-item">
-              <div class="col-md-2"><time>12:00 PM</time></div>
+              <div class="col-md-2"><time>12:30 PM</time></div>
               <div class="col-md-10">
                 <h4>Adjourn</h4>
               </div>
@@ -658,7 +666,6 @@
 
         </div>
 
--->
 
       </div>
     </section><!-- End Schedule Section -->
