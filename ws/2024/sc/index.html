@@ -564,6 +564,22 @@
             <div class="row schedule-item">
               <div class="col-md-2"><time>10:30 AM</time></div>
               <div class="col-md-10">
+                <h4>Multi-Host Sharing of a Single-Function NVMe Device in a PCIe Cluster
+					<a href="assets/pdfs/" target="_blank" rel="noopener noreferrer">
+						<img border="0" src="assets/img/pdf.gif">
+					</a>
+				</h4>
+                <p>Jonas Markussen (Dolphin Interconnect Solutions), Lars Bjørlykke Kristiansen (Dolphin Interconnect Solutions), Håkon Stensland (Simula Research Laboratory / University of Oslo), Pål Halvorsen (SimulaMet / Oslo Metropolitan University)</p>
+                <div style="font-size:x-small">
+                    Abstract: 
+					Distributed cluster applications, including machine learning tasks, database applications, and HPC workloads, often rely on NVMe-oF using RDMA for fast, block-level access to storage devices over a network. However, RDMA solutions add extra latency by requiring software on the critical path. In this paper, we present a distributed NVMe driver for sharing NVMe storage devices across hosts in a PCIe cluster. By building on PCIe shared memory capabilities, we demonstrate disaggregation of NVMe controllers at the I/O queue level, allowing them to be used in parallel by remote hosts without relying on RDMA. Our experimental results prove that our PCIe-based solution reduces network latency and is comparable to local access.
+                </div>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>10:50 AM</time></div>
+              <div class="col-md-10">
                 <h4>Examining the Viability of Row-Scale Disaggregation for Production Applications
 					<a href="assets/pdfs/" target="_blank" rel="noopener noreferrer">
 						<img border="0" src="assets/img/pdf.gif">
@@ -579,7 +595,7 @@
             </div>
 	
             <div class="row schedule-item">
-              <div class="col-md-2"><time>10:50 AM</time></div>
+              <div class="col-md-2"><time>11:10 AM</time></div>
               <div class="col-md-10">
                 <h4>Granularity and Interference-Aware GPU Sharing with MPS
 					<a href="assets/pdfs/" target="_blank" rel="noopener noreferrer">
@@ -595,39 +611,7 @@
             </div>
 
             <div class="row schedule-item">
-              <div class="col-md-2"><time>11:10 AM</time></div>
-              <div class="col-md-10">
-                <h4>Towards Disaggregated NDP Architectures for Large-scale Graph Analytics
-					<a href="assets/pdfs/" target="_blank" rel="noopener noreferrer">
-						<img border="0" src="assets/img/pdf.gif">
-					</a>
-				</h4>
-                <p>Suyeon Lee (Georgia Institute of Technology), Vishal Rao (Georgia Institute of Technology), Ada Gavrilovska (Georgia Institute of Technology)</p>
-                <div style="font-size:x-small">
-                    Abstract: 
-					The performance of large-scale graph analytics is limited by the capacity and performance of the memory subsystem on the platforms on which they execute. In this paper, we first discuss the limitations of existing approaches to scaling graph processing, and describe how they can be addressed via the use of disaggregated solutions with near-data processing (NDP) capabilities. Using observations from experimental analysis of the tradeoffs for different types of graphs and analytics kernels, we then identify the systems-level mechanisms that will be required by future graph analytics frameworks for disaggregated NDP architectures.
-                </div>
-              </div>
-            </div>
-
-            <div class="row schedule-item">
               <div class="col-md-2"><time>11:30 AM</time></div>
-              <div class="col-md-10">
-                <h4>Multi-Host Sharing of a Single-Function NVMe Device in a PCIe Cluster
-					<a href="assets/pdfs/" target="_blank" rel="noopener noreferrer">
-						<img border="0" src="assets/img/pdf.gif">
-					</a>
-				</h4>
-                <p>Jonas Markussen (Dolphin Interconnect Solutions), Lars Bjørlykke Kristiansen (Dolphin Interconnect Solutions), Håkon Stensland (Simula Research Laboratory / University of Oslo), Pål Halvorsen (SimulaMet / Oslo Metropolitan University)</p>
-                <div style="font-size:x-small">
-                    Abstract: 
-					Distributed cluster applications, including machine learning tasks, database applications, and HPC workloads, often rely on NVMe-oF using RDMA for fast, block-level access to storage devices over a network. However, RDMA solutions add extra latency by requiring software on the critical path. In this paper, we present a distributed NVMe driver for sharing NVMe storage devices across hosts in a PCIe cluster. By building on PCIe shared memory capabilities, we demonstrate disaggregation of NVMe controllers at the I/O queue level, allowing them to be used in parallel by remote hosts without relying on RDMA. Our experimental results prove that our PCIe-based solution reduces network latency and is comparable to local access.
-                </div>
-              </div>
-            </div>
-
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>11:50 AM</time></div>
               <div class="col-md-10">
                 <h4>A Software Platform to Support Disaggregated Quantum Accelerators
 					<a href="assets/pdfs/" target="_blank" rel="noopener noreferrer">
@@ -638,6 +622,22 @@
                 <div style="font-size:x-small">
                     Abstract: 
 					Quantum computers are making their way into High Performance Computing centers in the form of accelerators. Due to their physical implementation as mostly large appliances in separate racks, their number in typical data centers is significantly lower than the number of nodes offloading work to them, unlike the case with GPU accelerators. As a consequence, they form large-scale disaggregated infrastructures that pose a number of integration challenges due to their diverse implementation technologies and their need to be used as a shared resource for optimal utilization. Running hybrid High Performance Computing-Quantum Computing (HPCQC) applications in HPC environments, where the quantum portion is offloaded to the quantum processing units requires sophisticated resource management strategies to optimize resource utilization and performance. In this paper, we present the Munich Quantum Software Stack (MQSS), a Just-In-Time (JIT) compilation and execution software stack tailored for integrating disaggregated quantum accelerators into traditional HPC workflows.
+                </div>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>11:50 AM</time></div>
+              <div class="col-md-10">
+                <h4>Towards Disaggregated NDP Architectures for Large-scale Graph Analytics
+					<a href="assets/pdfs/" target="_blank" rel="noopener noreferrer">
+						<img border="0" src="assets/img/pdf.gif">
+					</a>
+				</h4>
+                <p>Suyeon Lee (Georgia Institute of Technology), Vishal Rao (Georgia Institute of Technology), Ada Gavrilovska (Georgia Institute of Technology)</p>
+                <div style="font-size:x-small">
+                    Abstract: 
+					The performance of large-scale graph analytics is limited by the capacity and performance of the memory subsystem on the platforms on which they execute. In this paper, we first discuss the limitations of existing approaches to scaling graph processing, and describe how they can be addressed via the use of disaggregated solutions with near-data processing (NDP) capabilities. Using observations from experimental analysis of the tradeoffs for different types of graphs and analytics kernels, we then identify the systems-level mechanisms that will be required by future graph analytics frameworks for disaggregated NDP architectures.
                 </div>
               </div>
             </div>
