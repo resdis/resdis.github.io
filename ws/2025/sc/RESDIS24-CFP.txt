@@ -1,0 +1,93 @@
+==========================================================================
+                             CALL FOR PAPERS
+==========================================================================
+
+4th IEEE International Workshop on RESource DISaggregation in High
+Performance Computing (RESDIS’24)
+
+To be held in conjunction with The International Conference for High
+Performance Computing, Networking, Storage and Analysis (SC’24)
+
+==========================================================================
+                        https://resdis.github.io/
+==========================================================================
+
+Disaggregation is an emerging compute paradigm that splits existing monolithic
+servers into a number of consolidated single-resource pools that communicate
+over a fast interconnect. This model decouples individual hardware resources,
+including tightly coupled ones such as processors and memory, and enables the
+composition of logical compute platforms with flexible and dynamic hardware
+configurations.
+
+The concept of disaggregation is driven by various recent trends in
+computation. From an application perspective, the increasing importance of
+data analytics and machine learning workloads in HPC centers brings
+unprecedented need for memory capacity, which is in stark contrast with the
+growing imbalance in the peak compute-to-memory capacity ratio of traditional
+system board based server platforms where memory modules are co-located with
+processors.  Meanwhile, traditional simulation workloads leave memory
+underutilized. At the hardware front, the proliferation of heterogeneous,
+special purpose computing elements promotes the need for configurable compute
+platforms, while at the same time, the increasing maturity of optical
+interconnects raises the prospects of better distance independence in
+networking infrastructure.
+
+The workshop intends to explore various aspects of resource disgregation,
+composability and their implications for high performance computing, both in
+dedicated HPC centers as well as in cloud environments.
+
+
+TOPICS OF INTEREST:
+-------------------
+- Disaggregated hardware in high-performance computing
+- Operating systems and runtime support for disaggregated platforms
+- Simulation of disaggregated platforms with existing infrastructure
+- Runtime systems and programming abstractions for disaggregation and
+  composability
+- Networking for disaggregation, including silicon photonics and optical
+  interconnects
+- Implications of resource disaggregation for scientific computing and
+  HPC applications
+- Algorithm design for disaggregated and composable systems
+- Disaggregated high throughput storage
+- Disaggregated heterogeneous accelerators (GPUs, FPGAs, AI Accelerators, etc.)
+- Resource management in disaggregated and composable platforms
+
+
+TIMELINE AND SUBMISSION PROCEDURE:
+----------------------------------
+Submission deadline:               August 16, 2024 (AoE) - EXTENDED
+Author notification:               September 6, 2024
+Final papers deadline:             September 27, 2024
+Workshop date:                     November 17, 2024
+
+The workshop proceedings will be published electronically via the
+IEEE Computer Society Digital Library.  Submitted manuscripts must
+use the proceedings templates at:
+
+https://www.ieee.org/conferences/publishing/templates.html
+
+Submissions must be between 5 and 8 pages, including references and figures.
+Prospective authors should submit their papers in PDF format through
+Linklings’ submission site:
+
+https://submissions.supercomputing.org/?page=Submit&id=SCWorkshopRESDISSubmission&site=sc24
+
+
+WORKSHOP CHAIRS:
+----------------
+Balazs Gerofi           Intel Corporation, USA
+John Shalf              Lawrence Berkeley National Laboratory, USA
+Christian Pinto         IBM Research Europe, Ireland
+
+
+PROGRAM COMMITTEE:
+------------------------------------
+Michael Aguilar           Sandia National Laboratories, USA
+Larry Dennison            Nvidia, USA
+Thaleia Dimitra Doudali   IMDEA Software Institute, Spain
+Kyle Hale                 Illinois Institute of Technology, USA
+John (Jack) Lange         Oak Ridge National Laboratory, USA
+Ivy Peng                  KTH Royal Institute of Technology, Sweden
+Yu Tanaka                 Fujitsu, Japan
+Gaël Thomas               Télécom SudParis, France
