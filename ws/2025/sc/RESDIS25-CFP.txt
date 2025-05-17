@@ -2,11 +2,11 @@
                              CALL FOR PAPERS
 ==========================================================================
 
-4th IEEE International Workshop on RESource DISaggregation in High
-Performance Computing (RESDIS’24)
+5th International Workshop on RESource DISaggregation in High Performance
+Computing (RESDIS’25)
 
-To be held in conjunction with The International Conference for High
-Performance Computing, Networking, Storage and Analysis (SC’24)
+To be held in conjunction with the ACM/IEEE International Conference for High
+Performance Computing, Networking, Storage and Analysis (SC’25)
 
 ==========================================================================
                         https://resdis.github.io/
@@ -56,22 +56,21 @@ TOPICS OF INTEREST:
 
 TIMELINE AND SUBMISSION PROCEDURE:
 ----------------------------------
-Submission deadline:               August 16, 2024 (AoE) - EXTENDED
-Author notification:               September 6, 2024
-Final papers deadline:             September 27, 2024
-Workshop date:                     November 17, 2024
+Submission deadline:               August  8, 2025 (AoE)
+Author notification:               September 5, 2025
+Final papers deadline:             September 26, 2025
+Workshop date:                     November 16, 2025
 
-The workshop proceedings will be published electronically via the
-IEEE Computer Society Digital Library.  Submitted manuscripts must
-use the proceedings templates at:
+Workshop papers will be published in the SC Workshops Proceedings volume.
+Submitted manuscripts must use the ACM proceedings template, two-column:
 
-https://www.ieee.org/conferences/publishing/templates.html
+https://www.acm.org/publications/proceedings-template
 
-Submissions must be between 5 and 8 pages, including references and figures.
-Prospective authors should submit their papers in PDF format through
-Linklings’ submission site:
+Submissions must be at least 5 pages (no upper limit), including references
+and figures.  Prospective authors should submit their papers in PDF format
+through Linklings’ submission site:
 
-https://submissions.supercomputing.org/?page=Submit&id=SCWorkshopRESDISSubmission&site=sc24
+https://submissions.supercomputing.org/?page=Submit&id=SCWorkshopRESDISSubmission&site=sc25
 
 
 WORKSHOP CHAIRS:
@@ -81,11 +80,10 @@ John Shalf              Lawrence Berkeley National Laboratory, USA
 Christian Pinto         IBM Research Europe, Ireland
 
 
-PROGRAM COMMITTEE:
+PROGRAM COMMITTEE (to be finalized):
 ------------------------------------
 Michael Aguilar           Sandia National Laboratories, USA
 Larry Dennison            Nvidia, USA
-Thaleia Dimitra Doudali   IMDEA Software Institute, Spain
 Kyle Hale                 Illinois Institute of Technology, USA
 John (Jack) Lange         Oak Ridge National Laboratory, USA
 Ivy Peng                  KTH Royal Institute of Technology, Sweden
