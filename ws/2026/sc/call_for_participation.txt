@@ -1,0 +1,74 @@
+==============================================================================
+                        CALL FOR PARTICIPATION
+==============================================================================
+
+         1st International Workshop on Resource Disaggregation
+             in High Performance Computing (Asia Edition)
+                        ***  RESDIS 2022  ***
+
+Held in conjunction with HPC Asia'22: The International Conference on High
+Performance Computing in Asia-Pacific Region (HPC Asia 2022)
+
+Workshop date: January 14, 2022 (JST)
+
+==============================================================================
+              https://resdis.github.io/ws/2022/hpcasia/
+==============================================================================
+
+Disaggregation is an emerging compute paradigm that splits existing monolithic
+servers into a number of consolidated single-resource pools that communicate
+over a fast interconnect. This model decouples individual hardware resources,
+including tightly coupled ones such as processors and memory, and enables the
+creation of logical compute platforms with flexible and dynamic hardware
+configurations. The concept of disaggregation is driven by various recent
+trends in computation. From an application perspective, the increasing
+importance of data analytics and machine learning workloads in HPC centers
+brings unprecedented need for memory capacity, which is in stark contrast with
+the growing imbalance in the peak compute-to-memory capacity ratio of
+traditional system board based server platforms where memory modules are
+co-located with processors. At the hardware front, the proliferation of
+heterogeneous, special purpose computing elements promotes the need for
+configurable compute platforms, while at the same time, the increasing
+maturity of optical interconnects elevates the prospects of distance
+independence in networking infrastructure.
+
+The workshop intends to explore various aspects of resource disgregation and
+their implications for high performance computing, both in dedicated HPC
+centers as well as in cloud environments. 
+
+------------------------------------------
+AGENDA (all times in Japan Standard Time):
+------------------------------------------
+
+1:00PM - Welcome and Introduction
+
+1:10PM - Keynote: Composable Disaggregated Infrastructure Delivers Adaptive
+            Data Performance for AI-driven HPC - Sumit Puri (Liqid)
+
+2:00PM - Coffee Break
+
+2:15PM - Roundtable on the Role of Photonics for Disaggregation
+            -- moderated by John Shalf
+            Panelists: Yu Tanaka (Fujitsu),
+                       Mark Wade (Ayar Labs),
+                       Keren Bergman (Columbia University)
+
+3:00PM - Compute Express Link (CXL*): Changing the Industry Landscape
+            - Debendra Das Sharma (Intel)
+
+3:30PM - CXL Memory and SMDK as a First Step toward Memory Disaggregation
+            - Cheolmin Park (Samsung)
+
+4:00PM - Rethinking Disaggregated Memory in HPC: A Userspace Software Approach
+            - Ivy Peng (Lawrence Livermore National Laboratory)
+
+4:30PM - Adjourn
+
+--------------------
+WORKSHOP ORGANIZERS:
+--------------------
+
+Balazs Gerofi           RIKEN, Japan
+John Shalf              Lawrence Berkeley National Laboratory, USA
+
+Contact us at bgerofi@riken.jp if you have any questions.

@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>RESDIS'26</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: TheEvent - v4.7.0
+  * Template URL: https://bootstrapmade.com/theevent-conference-event-bootstrap-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex align-items-center ">
+    <div class="container-fluid container-xxl d-flex align-items-center">
+
+      <div id="logo" class="me-auto">
+        <!-- Uncomment below if you prefer to use a text logo -->
+        <h1><a href="index.html">RESDIS<span>'26</span></a></h1>
+        <!-- <a href="index.html" class="scrollto"><img src="assets/img/logo.png" alt="" title=""></a> -->
+      </div>
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">Intro</a></li>
+          <li><a class="nav-link scrollto" href="#CFP">CFP</a></li>
+          <li><a class="nav-link scrollto" href="#dates">Dates</a></li>
+          <li><a class="nav-link scrollto" href="#speakers">Organization</a></li>
+          <li><a class="nav-link scrollto" href="#schedule">Agenda</a></li>
+          <li><a class="nav-link scrollto" href="#venue">Venue</a></li>
+          <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+          <ul>
+            <li><a href="#">Drop Down 1</a></li>
+            <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+              <ul>
+                <li><a href="#">Deep Drop Down 1</a></li>
+                <li><a href="#">Deep Drop Down 2</a></li>
+                <li><a href="#">Deep Drop Down 3</a></li>
+                <li><a href="#">Deep Drop Down 4</a></li>
+                <li><a href="#">Deep Drop Down 5</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Drop Down 2</a></li>
+            <li><a href="#">Drop Down 3</a></li>
+            <li><a href="#">Drop Down 4</a></li>
+          </ul>
+        </li> -->
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+      <a class="buy-tickets scrollto" href="https://sc26.supercomputing.org/" target="_blank">Register</a>
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div class="hero-container" data-aos="zoom-in" data-aos-delay="20">
+      <h1 class="mb-4 pb-0">6th International Workshop on <br/><span>RESource DISaggregation</span><br/>in High-Performance Computing<br/></h1>
+      <h2 class="mb-4 pb-0">Held together with The International Conference for High Performance Computing, Networking, Storage, and Analysis (SC'26)</h2>
+      <p class="mb-4 pb-0">November 15th (Sun) 2026, Chicago, IL, USA</p>
+      <!-- <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox play-btn mb-4"></a> -->
+      <!-- <a href="#about" class="about-btn scrollto">About The Event</a> -->
+	  <a href="https://sc26.supercomputing.org/">
+		<img src="https://sc26.supercomputing.org/wp-content/uploads/2025/10/footer_logo.svg" width="200">
+	  </a>
+    </div>
+  </section><!-- End Hero Section -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="section-with-bg">
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <div class="col-md-1">
+          </div>
+          <div class="col-md-10" style="text-align: center">
+          <h2>Introduction</h2>
+		  Disaggregation is an emerging compute paradigm that splits existing
+		  monolithic servers into a number of consolidated single-resource
+		  pools that communicate over a fast interconnect. This model decouples
+		  individual hardware resources, including tightly coupled ones such as
+		  processors and memory, and enables the composition of logical compute
+		  platforms with flexible and dynamic hardware configurations. <br/><br/>
+
+		The concept of disaggregation is driven by various recent trends in
+		computation. From an application perspective, the increasing importance of
+		data analytics and machine learning workloads in HPC centers brings
+		unprecedented need for memory capacity, which is in stark contrast with the
+		growing imbalance in the peak compute-to-memory capacity ratio of traditional
+		system board based server platforms where memory modules are co-located with
+		processors.  Meanwhile, traditional simulation workloads leave memory
+		underutilized. At the hardware front, the proliferation of heterogeneous,
+		special purpose computing elements promotes the need for configurable compute
+		platforms, while at the same time, the increasing maturity of optical
+		interconnects raises the prospects of better distance independence in
+		networking infrastructure.
+		  <br/><br/>
+
+		  The workshop intends to explore various aspects of resource
+		  disgregation, composability and their implications for high
+		  performance computing, both in dedicated HPC centers as well as in
+		  cloud environments.  RESDIS aims to bring together researchers
+		  and industrial practitioners to foster discussion, collaboration,
+		  mutual exchange of knowledge and experience related to future
+		  disaggregated systems.
+		  <br/><br/>
+
+          </div>
+          <div class="col-md-1">
+          </div>
+        </div>
+      </div>
+    </section><!-- End About Section -->
+    
+	<!-- ======= CFP Section ======= -->
+    <section id="CFP" class="section-with-bg">
+      <div class="container" data-aos="fade-up" data-aos-delay="20">
+        <div class="section-header">
+		<br/>
+		<br/>
+          <h2>Call for Papers</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-md-1">
+          </div>
+          <div class="col-md-10" style="text-align: center" data-aos="fade-up" data-aos-delay="20">
+
+		  The RESDIS program committee solicits original, high-quality submissions
+		  of unpublished results related to the theme of resource disaggregation
+		  and composable systems.
+		  Topics of interest include, but not limited to: <br/><br/>
+
+			<div class="row">
+			  <div class="col-md-2">
+			  </div>
+			  <div class="col-md-8">
+			  - Disaggregated hardware in high-performance computing <br/>
+              - Operating systems and runtime support for disaggregated platforms <br/>
+              - Simulation of disaggregated platforms with existing infrastructure <br/>
+              - Runtime systems and programming abstractions for disaggregation and composability <br/>
+              - Networking for disaggregation, including silicon photonics and optical interconnects <br/>
+              - Implications of resource disaggregation for scientific computing and HPC applications <br/>
+              - Algorithm design for disaggregated and composable systems <br/>
+              - Disaggregated high throughput storage <br/>
+              - Disaggregated heterogeneous accelerators (GPUs, FPGAs, AI Accelerators, etc.) <br/>
+              - Resource management in disaggregated and composable platforms <br/>
+			  </div>
+			  <div class="col-md-2">
+			  </div>
+			</div>
+		  <br/>
+
+		  Workshop papers will be published in the SC Workshops Proceedings volume. <br/>
+		  Submitted manuscripts must use the ACM proceedings template, two-column: <br/>
+
+		  <br/>
+		  <a href="https://www.acm.org/publications/proceedings-template" target="_blank">https://www.acm.org/publications/proceedings-template</a>.
+		  <br/>
+		  <br/>
+
+		  Submissions must be at least 5 pages (no upper limit), including references
+		  and figures.  Prospective authors should submit their papers in PDF format
+		  through Linklings’ submission site: <br/>
+		  <br/>
+
+          <!-- <a class="buy-tickets scrollto" href="https://submissions.supercomputing.org/?page=Submit&id=SCWorkshopRESDISSubmission&site=sc26" target="_blank">Submit Paper</a> -->
+          <a class="buy-tickets scrollto" href="" target="_blank"><s>Submissions not yet open</s></a>
+		  <br/>
+		  <br/>
+		  <br/>
+
+
+          </div>
+          <div class="col-md-1">
+          </div>
+        </div>
+
+
+      </div>
+
+    </section>
+	<!-- End Dates Section -->
+
+    
+	<!-- ======= Dates Section ======= -->
+    <section id="dates">
+      <div class="container" data-aos="fade-up" data-aos-delay="20">
+        <div class="section-header">
+		<br/>
+          <h2>Important Dates</h2>
+        </div>
+
+			<div class="row">
+			  <div class="col-md-2">
+			  </div>
+			  <div class="col-md-4" data-aos="fade-up" data-aos-delay="20">
+				  <div class="details">
+					<h5><time>August 7th (Fri) AoE</time></h5>
+				  </div>
+			  </div>
+			  <div class="col-md-5" data-aos="fade-up" data-aos-delay="20">
+				  <div class="details">
+					<p>Submission deadline</p>
+				  </div>
+			  </div>
+			  <div class="col-md-1">
+			  </div>
+			</div>
+
+			<div class="row">
+			  <div class="col-md-2">
+			  </div>
+			  <div class="col-md-4" data-aos="fade-up" data-aos-delay="20">
+				  <div class="details">
+					<h5><time>September 4th (Fri)</time></h5>
+				  </div>
+			  </div>
+			  <div class="col-md-5" data-aos="fade-up" data-aos-delay="20">
+				  <div class="details">
+					<p>Acceptance notification</p>
+				  </div>
+			  </div>
+			  <div class="col-md-1">
+			  </div>
+			</div>
+
+			<div class="row">
+			  <div class="col-md-2">
+			  </div>
+			  <div class="col-md-4" data-aos="fade-up" data-aos-delay="20">
+				  <div class="details">
+					<h5><time>September 25th (Fri)</time></h5>
+				  </div>
+			  </div>
+			  <div class="col-md-5" data-aos="fade-up" data-aos-delay="20">
+				  <div class="details">
+					<p>Camera ready paper deadline</p>
+				  </div>
+			  </div>
+			  <div class="col-md-1">
+			  </div>
+			</div>
+
+			<div class="row">
+			  <div class="col-md-2">
+			  </div>
+			  <div class="col-md-4" data-aos="fade-up" data-aos-delay="20">
+				  <div class="details">
+					<h5><time>November 15th (Sun)</time></h5>
+				  </div>
+			  </div>
+			  <div class="col-md-5" data-aos="fade-up" data-aos-delay="20">
+				  <div class="details">
+					<p>Workshop date</p>
+				  </div>
+			  </div>
+			  <div class="col-md-1">
+			  </div>
+			</div>
+
+
+
+      </div>
+
+    </section>
+	<!-- End Dates Section -->
+
+    <!-- ======= Speakers Section ======= -->
+    <section id="speakers" class="section-with-bg">
+      <div class="container" data-aos="fade-up" data-aos-delay="20">
+        <div class="section-header">
+          <h2>Organization</h2>
+        </div>
+        
+		<div class="row">
+          <div class="col-md-1">
+          </div>
+          <div class="col-md-10" style="text-align: center">
+          <h2><b>Workshop Chairs</b></h2>
+		<br/>
+          </div>
+          <div class="col-md-1">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-2">
+          </div>
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="10">
+              <div class="pc-details">
+                <a href="http://bgerofi.github.io/" target="_blank" style="color:#0e1b4d">Balazs Gerofi</a>
+              </div>
+          </div>
+          <div class="col-md-5" data-aos="fade-up" data-aos-delay="10">
+              <div class="details">
+                <p>Intel Corporation, USA & RIKEN, Japan</p>
+              </div>
+          </div>
+          <div class="col-md-1">
+		  </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-2">
+          </div>
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="10">
+              <div class="pc-details">
+                <a href="https://smithengineering.queensu.ca/directory/faculty/ian-karlin.html" target="_blank" style="color:#0e1b4d">Ian Karlin</a>
+              </div>
+          </div>
+          <div class="col-md-5" data-aos="fade-up" data-aos-delay="10">
+              <div class="details">
+                <p>Queen's University, Canada</p>
+              </div>
+          </div>
+          <div class="col-md-1">
+		  </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-2">
+          </div>
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="10">
+              <div class="pc-details">
+                <a href="https://crd.lbl.gov/divisions/amcr/about-amcr/staff-2/computer-science-2/john-shalf-2/" target="_blank" style="color:#0e1b4d">John Shalf</a>
+              </div>
+          </div>
+          <div class="col-md-5" data-aos="fade-up" data-aos-delay="10">
+              <div class="details">
+                <p>Lawrence Berkeley National Laboratory, USA</p>
+              </div>
+          </div>
+          <div class="col-md-1">
+		  </div>
+        </div>
+
+		<div class="row">
+          <div class="col-md-1">
+          </div>
+          <div class="col-md-10" style="text-align: center">
+          <h2><b>Program Committee (Tentative)</b></h2><br/>
+          </div>
+          <div class="col-md-1">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-2">
+          </div>
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="10">
+              <div class="pc-details">
+				Michael Aguilar
+              </div>
+          </div>
+          <div class="col-md-5" data-aos="fade-up" data-aos-delay="10">
+              <div class="details">
+                <p>Sandia National Laboratories, USA</p>
+              </div>
+          </div>
+          <div class="col-md-1">
+		  </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-2">
+          </div>
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="10">
+              <div class="pc-details">
+				Larry Dennison
+              </div>
+          </div>
+          <div class="col-md-5" data-aos="fade-up" data-aos-delay="10">
+              <div class="details">
+                <p>Nvidia, USA</p>
+              </div>
+          </div>
+          <div class="col-md-1">
+		  </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-2">
+          </div>
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="10">
+              <div class="pc-details">
+				Aadesh Deshmukh
+              </div>
+          </div>
+          <div class="col-md-5" data-aos="fade-up" data-aos-delay="10">
+              <div class="details">
+                <p>AMD, USA</p>
+              </div>
+          </div>
+          <div class="col-md-1">
+		  </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-2">
+          </div>
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="10">
+              <div class="pc-details">
+				Kyle Hale
+              </div>
+          </div>
+          <div class="col-md-5" data-aos="fade-up" data-aos-delay="10">
+              <div class="details">
+                <p>Illinois Institute of Technology, USA</p>
+              </div>
+          </div>
+          <div class="col-md-1">
+		  </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-2">
+          </div>
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="10">
+              <div class="pc-details">
+				John (Jack) Lange
+              </div>
+          </div>
+          <div class="col-md-5" data-aos="fade-up" data-aos-delay="10">
+              <div class="details">
+                <p>Oak Ridge National Laboratory, USA</p>
+              </div>
+          </div>
+          <div class="col-md-1">
+		  </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-2">
+          </div>
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="10">
+              <div class="pc-details">
+				George Michelogiannakis
+              </div>
+          </div>
+          <div class="col-md-5" data-aos="fade-up" data-aos-delay="10">
+              <div class="details">
+                <p>Lawrence Berkeley National Laboratory, USA</p>
+              </div>
+          </div>
+          <div class="col-md-1">
+		  </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-2">
+          </div>
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="10">
+              <div class="pc-details">
+				Ivy Peng
+              </div>
+          </div>
+          <div class="col-md-5" data-aos="fade-up" data-aos-delay="10">
+              <div class="details">
+                <p>KTH Royal Institute of Technology, Sweden</p>
+              </div>
+          </div>
+          <div class="col-md-1">
+		  </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-2">
+          </div>
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="10">
+              <div class="pc-details">
+				Yu Tanaka
+              </div>
+          </div>
+          <div class="col-md-5" data-aos="fade-up" data-aos-delay="10">
+              <div class="details">
+                <p>Fujitsu, Japan</p>
+              </div>
+          </div>
+          <div class="col-md-1">
+		  </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-2">
+          </div>
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="10">
+              <div class="pc-details">
+				Gaël Thomas
+              </div>
+          </div>
+          <div class="col-md-5" data-aos="fade-up" data-aos-delay="10">
+              <div class="details">
+                <p>Télécom SudParis, France</p>
+              </div>
+          </div>
+          <div class="col-md-1">
+		  </div>
+        </div>
+
+      </div>
+
+    </section><!-- End Speakers Section -->
+
+    <!-- ======= Schedule Section ======= -->
+    <section id="schedule">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>Agenda</h2>
+          <p>All times in Central Time Zone (UTC-5)</p>
+        </div>
+
+        <h3 class="sub-heading">TBA</h3>
+
+		<!--
+        <div class="tab-content row justify-content-center" data-aos="fade-up" data-aos-delay="200">
+
+          <div role="tabpanel" class="col-lg-9 tab-pane fade show active" id="day-1">
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>09:00 AM</time></div>
+              <div class="col-md-10">
+                <h4>Welcome and Introduction
+					<a href="https://www.dropbox.com/scl/fi/6dzxguo4olxdwenupbqk5/RESDIS25-intro.pdf?rlkey=900r5ptvapie3tc5pafvly8k8&st=7rq1ou4c&dl=1" target="_blank" rel="noopener noreferrer">
+						<img border="0" src="assets/img/slides.png" width="18" height="18">
+					</a>
+				</h4>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>09:10 AM</time></div>
+              <div class="col-md-10">
+                <h4>Opening Keynote: Photonics-Enabled Systems for the Disaggregated Era of Supercomputing and AI
+					<a href="https://www.dropbox.com/scl/fi/oy6iajuectna3cyufvlgi/fpetrini-RESDIS25.pdf?rlkey=37jvmoemc30kwc3g91ddlkc8r&st=jsm4bhsk&dl=1" target="_blank" rel="noopener noreferrer">
+						<img border="0" src="assets/img/slides.png" width="18" height="18">
+					</a>
+				</h4>
+                <p>Fabrizio Petrini (Intel Corporation)</p>
+                <div style="font-size:x-small">
+                    Abstract: As AI and HPC workloads push the limits of performance, power, and scalability, the industry faces a fundamental architectural shift. The traditional boundaries between compute, memory, and networking are dissolving, giving rise to disaggregated systems—composed from modular chiplets and accelerators that must communicate with near-monolithic efficiency. In this landscape, photonics is emerging not just as an I/O technology, but as the foundation for next-generation system architecture. This keynote will explore how advances in integrated photonics—including silicon photonic interposers, co-packaged optics, and optical circuit fabrics—are transforming the design of large-scale AI and supercomputing platforms. By delivering orders-of-magnitude improvements in bandwidth density, latency uniformity, and energy per bit, photonics interconnects enable the flexible composition of heterogeneous compute elements across dies, packages, and system racks. The talk will outline the evolution from electrical domain limits to photonic-domain scalability, highlighting how photonic fabrics can unify on-package, board-level, and cluster-scale communication. It will examine the interplay between photonics, packaging, and network topology, and discuss emerging opportunities in optically reconfigurable architectures for AI model training and HPC workflows. Ultimately, it will argue that photonics is not just a bandwidth solution—but the enabler of a new class of composable, memory-centric, and energy-efficient supercomputing systems.
+                </div>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>10:00 AM</time></div>
+              <div class="col-md-10">
+                <h4><span>Coffee Break</span></h4>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>10:30 AM</time></div>
+              <div class="col-md-10">
+                <h4>Fast on-demand Memory Mapping for Shared Memory and Disaggregated Systems
+					<a href="https://www.dropbox.com/scl/fi/pk7h6uysuf3n3lmbb76pc/rgrant-RESDIS25.pdf?rlkey=ny6vqo4ddpweymn83dscnrdu0&st=nd6a8512&dl=1" target="_blank" rel="noopener noreferrer">
+						<img border="0" src="assets/img/pdf.gif">
+					</a>
+					<a href="https://dl.acm.org/doi/10.1145/3731599.3767523" target="_blank" rel="noopener noreferrer">
+						<img border="0" src="assets/img/slides.png" width="18" height="18">
+					</a>
+				</h4>
+                <p>Yuang Yan (Queen's University), Ryan Grant (Queen's University)</p>
+                <div style="font-size:x-small">
+                    Abstract: 
+					Efficient synchronization of memory mapping information is increasingly important as systems evolve toward greater resource disaggregation and heterogeneity.
+					When memory is exported between processes, establishing shared mapping often requires costly page table walk and updates, particularly in fault-driven models.
+					To study these costs, we implement an XPMEM-inspired shared-memory driver and evaluate techniques to reduce mapping overhead.
+					Our approach combines parallel batched on-demand pinning, bypassing unnecessary cache-policy lookups in PFN mapping, and dynamic re-registration to expand registered regions without tearing down existing mappings.
+					In our evaluation, these optimizations reduce cold-start memory copy by up to 13.22x over XPMEM in multi-process workloads, with particular benefits for collective communication patterns and rapidly resizing buffers.
+					While developed in a shared-memory context, the results highlight general strategies—avoiding redundant translation work, enabling parallel mapping operations, and preserving mapping state—that can inform the design of memory management in disaggregated systems, including GPU disaggregation and heterogeneous memory environments.
+                </div>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>10:50 AM</time></div>
+              <div class="col-md-10">
+                <h4>TEGRA - Scaling Up Graph Processing with Disaggregated Computing
+					<a href="" target="_blank" rel="noopener noreferrer">
+						<img border="0" src="assets/img/pdf.gif">
+					</a>
+					<a href="https://dl.acm.org/doi/10.1145/3731599.3767524" target="_blank" rel="noopener noreferrer">
+						<img border="0" src="assets/img/slides.png" width="18" height="18">
+					</a>
+
+				</h4>
+                <p>William Shaddix (University of California, Davis), Mahyar Samani (University of California, Davis), Jason Lowe-Power (Google LLC, University of California, Davis), Venkatesh Akella (University of California, Davis)</p>
+                <div style="font-size:x-small">
+                    Abstract: 
+					Graph processing workloads continue to grow in scale and complexity, demanding architectures that can adapt to diverse compute and memory requirements. Traditional scale-out accelerators couple compute and memory resources, resulting in resource underutilization when executing workloads with varying compute-to-memory intensities. In this paper, we present TEGRA, a composable, scale-up architecture for large-scale graph processing. TEGRA leverages disaggregated memory via CXL and a message-passing communication model to decouple compute and memory, enabling independent scaling of each. Through detailed evaluation using the gem5 simulator, we show that TEGRA improves memory bandwidth utilization by up to 15\% over state-of-the-art accelerators by dynamically provisioning compute based on workload demands. Our results demonstrate that TEGRA provides a flexible and efficient foundation for supporting emerging graph analytics workloads across a wide range of arithmetic intensities.
+                </div>
+              </div>
+            </div>
+	
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>11:10 AM</time></div>
+              <div class="col-md-10">
+                <h4>An RDMA-First Object Storage System with SmartNIC Offload
+					<a href="https://dl.acm.org/doi/10.1145/3731599.3767522" target="_blank" rel="noopener noreferrer">
+						<img border="0" src="assets/img/pdf.gif">
+					</a>
+					<a href="https://www.dropbox.com/scl/fi/ymjo4rufo1oboz281umao/yuzhu-RESDIS25.pdf?rlkey=7tcl4e4r1vuhmkm5296tdrn2w&st=9qo12tlc&dl=1" target="_blank" rel="noopener noreferrer">
+						<img border="0" src="assets/img/slides.png" width="18" height="18">
+					</a>
+				</h4>
+                <p>
+				Yu Zhu (ETH Zurich), Aditya Dhakal (Hewlett Packard Labs), Pedro Bruel (Hewlett Packard Labs), Gourav Rattihalli (Hewlett Packard Labs), Yunming Xiao (The Chinese University of Hong Kong, Shenzhen), Johann Lombardi (Hewlett Packard Labs), Dejan Milojicic (Hewlett Packard Labs)
+				</p>
+                <div style="font-size:x-small">
+                    Abstract: 
+					AI training and inference impose sustained, fine-grained I/O that stresses host-mediated, TCP-based storage paths. We revisit POSIX-compatible object storage for GPU-centric pipelines and present ROS2, an RDMA-first design that offloads the DAOS client to an NVIDIA BlueField-3 SmartNIC while leaving the server-side DAOS I/O engine unchanged. ROS2 splits a lightweight gRPC control plane from a high-throughput data plane (UCX/libfabric over RDMA or TCP), removing host mediation from the data path. Using FIO/DFS across local and remote settings, we show that on server-grade CPUs RDMA consistently outperforms TCP for large sequential and small random I/O. When the client is offloaded to BlueField-3, RDMA performance matches the host; TCP on the SmartNIC lags, underscoring RDMA’s advantage for offloaded deployments. We conclude that an RDMA-first, SmartNIC-offloaded object store is a practical foundation for LLM data delivery; optional GPUDirect placement is left for future work.
+                </div>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>11:30 AM</time></div>
+              <div class="col-md-10">
+                <h4>DoCeph: DPU-Offloaded Messaging in Ceph for Reduced Host CPU Utilization
+					<a href="https://www.dropbox.com/scl/fi/40fb5o34rmce4n9mxk74q/kpark-RESDIS25.pdf?rlkey=fbhi5jrauxp0r7e3yu16yi837&st=yyph4utm&dl=1" target="_blank" rel="noopener noreferrer">
+						<img border="0" src="assets/img/pdf.gif">
+					</a>
+					<a href="https://dl.acm.org/doi/10.1145/3731599.3767525" target="_blank" rel="noopener noreferrer">
+						<img border="0" src="assets/img/slides.png" width="18" height="18">
+					</a>
+				</h4>
+                <p>
+				Kyuli Park
+				(Sogang University, South Korea),
+				Sungmin Yoon
+				(Sogang University, South Korea),
+				Farid Talibli
+				(Sogang University, South Korea),
+				Sungyong Park
+				(Sogang University, South Korea),
+				Jae-Hyuck Kwak
+				(Korea Institute of Science and Technology Information),
+				Kimoon Jeong
+				(Korea Institute of Science and Technology Information),
+				Awais Khan
+				(Oak Ridge National Laboratory),
+				Youngjae Kim
+				(Sogang University, South Korea)
+				</p>
+                <div style="font-size:x-small">
+                    Abstract: 
+					Ceph is a widely used distributed object store, but its messenger layer imposes substantial CPU overhead on the host. To address this limitation, we propose DoCeph, a DPU-offloaded storage architecture for Ceph that disaggregates the system by offloading the communication-intensive messaging component to the DPU while retaining the storage backend on the host. The DPU efficiently manages communication, using lightweight RPC for metadata operations and DMA for data transfer. Moreover, DoCeph introduces a pipelining technique that overlaps data transmission with buffer preparation, mitigating hardware-imposed transfer size limitations. We implemented DoCeph on a Ceph cluster with NVIDIA BlueField-3 DPUs. Evaluation results indicate that DoCeph cuts host CPU usage by up to 92% while sustaining stable throughput and providing larger performance benefits for object writes over 1 MB.
+                </div>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>11:50 AM</time></div>
+              <div class="col-md-10">
+                <h4>Closing Invited Talk: Fast and Scalable Inference with NVIDIA Dynamo
+					<a href="https://www.dropbox.com/scl/fi/bvvxtwuu7vmi8w2neeysc/bglick-RESDIS25.pdf?rlkey=fje656onngm1o0mjdd7h0e7cu&st=7ypcgifi&dl=1" target="_blank" rel="noopener noreferrer">
+						<img border="0" src="assets/img/slides.png" width="18" height="18">
+					</a>
+				</h4>
+                <p>Benjamin Glick (NVIDIA), Arnav Goel (NVIDIA)</p>
+                <div style="font-size:x-small">
+                    Abstract: As large language models move into production at unprecedented scale, the requirements for efficient, reliable, and cost-effective inference have diverged from those of training. Modern deployments must meet diverse SLAs, support rapidly growing GPU fleets, and include workloads with different performance characteristics. NVIDIA Dynamo is a production-grade framework for distributed inference at scale that addresses these challenges through modular disaggregation, topology-aware scheduling, and intelligent memory and KV-cache management. This presentation covers Dynamo’s design for high-performance inference at scale, detailing how disaggregating inference across prefill and decode phases increases utilization. We highlight advancements such as KV-cache-aware routing and offloading strategies that leverage the full memory hierarchy, from HBM to networked storage. Together, these strategies enable a cohesive platform that enables efficient and scalable LLM inference in real-world production environments.
+                </div>
+              </div>
+            </div>
+
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>12:30 PM</time></div>
+              <div class="col-md-10">
+                <h4>Adjourn</h4>
+              </div>
+            </div>
+
+          </div>
+
+        </div> <!-- End schedule div
+		-->
+
+      </div>
+    </section><!-- End Schedule Section -->
+
+    <!-- ======= Venue Section ======= -->
+    <section id="venue" class="section-with-bg">
+
+      <div class="container-fluid" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Event Venue</h2>
+          <p>McCormick Place, 2301 S Martin Luther Kind Dr, Chicago, IL 60616</p>
+        </div>
+
+        <div class="row g-0">
+          <div class="col-lg-6 venue-map">
+		  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2971.865482718886!2d-87.6158294!3d41.8527221!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2b8114325857%3A0xde54f80e4327f5e2!2sMcCormick%20Place!5e0!3m2!1sen!2sus!4v1775950892644!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+
+          <div class="col-lg-6 venue-info">
+            <div class="row justify-content-center">
+              <div class="col-11 col-lg-8 position-relative">
+                <h3>McCORMICK PLACE</h3>
+                <p>
+				Located along Chicago’s stunning lakefront and minutes from downtown, McCormick Place has top-tier amenities and is close to hotels, dining, attractions, shopping, and public transportation.
+				</p>
+				<br/>
+				<p>
+				The expanded McCormick Square campus includes the Hyatt Regency McCormick Place and the Marriott Marquis Chicago.
+				</p>
+				<br/>
+				<p>
+				Explore McCORMICK Place's <a href="https://www.mccormickplace.com/attendees/">website</a>.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+<!--
+      <div class="container-fluid venue-gallery-container" data-aos="fade-up" data-aos-delay="20">
+        <div class="row g-0">
+
+          <div class="col-lg-4 col-md-4">
+            <div class="venue-gallery">
+              <a href="assets/img/gallery/pic_rccs.jpeg" class="glightbox" data-gall="venue-gallery">
+                <img src="assets/img/gallery/pic_rccs.jpeg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-4">
+            <div class="venue-gallery">
+              <a href="assets/img/gallery/pic_fugaku.jpeg" class="glightbox" data-gall="venue-gallery">
+                <img src="assets/img/gallery/pic_fugaku.jpeg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-4">
+            <div class="venue-gallery">
+              <a href="assets/img/gallery/pic_k.jpeg" class="glightbox" data-gall="venue-gallery">
+                <img src="assets/img/gallery/pic_k.jpeg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+-->
+
+    </section><!-- End Venue Section -->
+
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="section-bg">
+
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Contact Us</h2>
+          <p>If you have any comments/questions, do not hesitate to contact us.</p>
+        </div>
+
+        <div class="row contact-info">
+
+          <div class="col-md-6">
+            <div class="contact-address">
+              <i class="bi bi-geo-alt"></i>
+              <h3>Address</h3>
+			  <address>2501 NE Century Blvd, Hillsboro, <br/>
+						OR 97124, USA <br/>
+						</address>
+<!--              <address>7 Chome-1-26 Minatojima Minamimachi, <br/>
+                       Chuo Ward, Kobe, <br/>
+                       Hyogo 650-0047, <br/>
+                       JAPAN</address>
+-->
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="contact-email">
+              <i class="bi bi-envelope"></i>
+              <h3>Email</h3>
+              <p><a href="mailto:bgerofi@gmail.com">bgerofi_AT_gmail.com</a></p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong>RESDIS</strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!--
+        All the links in the footer should remain intact.
+        You can delete the links only if you purchased the pro version.
+        Licensing information: https://bootstrapmade.com/license/
+        Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=TheEvent
+      -->
+        Designed using <a href="https://www.w3schools.com/bootstrap/bootstrap_ver.asp">Bootstrap</a>
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
