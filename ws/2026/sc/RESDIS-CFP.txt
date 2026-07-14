@@ -61,9 +61,10 @@ Final papers deadline:             September 25, 2026
 Workshop date:                     November 15, 2026 (TBD)
 
 Workshop papers will be published in the SC Workshops Proceedings volume.
-Submitted manuscripts must use the ACM proceedings template, two-column:
+Submitted manuscripts for the official proceedings must use the IEEE
+proceedings template (two-column, US letter, conference mode):
 
-https://www.acm.org/publications/proceedings-template
+https://www.ieee.org/conferences/publishing/templates
 
 Submissions must be at least 5 pages (no upper limit), including references
 and figures.  Prospective authors should submit their papers in PDF format
