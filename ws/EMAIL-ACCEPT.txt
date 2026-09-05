@@ -1,0 +1,16 @@
+Dear Authors,
+
+The RESDIS'XX Program Committee is delighted to inform you that your submission SUBMISSION_TITLE (SUBMISSION_NUM) has been accepted to appear in the workshop.
+
+Visit the submission site for reviews, comments, and related information. Please make sure that you take into account the reviewers' comments when preparing your camera ready manuscript. Pay special attention to their recommendations for improvements and incorporate them as much as possible in the final version of your paper.
+
+The camera-ready deadline is September 25.
+
+On the submission site you will see a link in your To-Do items to submit a copyright form to IEEE. Additionally, on your My Submissions page, you will see a link to submit to the "Camera Ready Workshop Upload" form. Please complete both tasks in a timely manner.
+
+Please keep in mind that for an accepted paper to be included in the proceedings, one of the authors has to present the paper at the workshop in-person.
+
+We look forward to welcoming you at RESDIS'XX in XYZ!
+
+Best regards,
+Balazs, John, Ian
